@@ -22,13 +22,7 @@ Details on the specific repositories, getting set up, folder structure, guidelin
 
 <hr />
 
-##
-
-##
-
-##
-
-##
+<br/><br/><br/><br/>
 
 # GitHub Organization
 
@@ -36,17 +30,7 @@ A GitHub organization has been created with the name **PharmaHacks** ([https://g
 
 The PharmaHacks github organization will contain all the source code for every website or app built for the PharmaHacks hackathon. Currently, a repository named &quot;[**official-website-2020**](https://github.com/PharmaHacks/official-website-2020)&quot; has been created inside the repository. This repo (repository) will have all the code for the official website for PharmaHacks 2020.
 
-##
-
-##
-
-##
-
-
-
-
-
-
+<br/><br/>
 
 # Source Code
 
@@ -54,6 +38,8 @@ Repository: [**official-website-2020**](https://github.com/PharmaHacks/official-
 
 This is a static website built with ReactJS.
 
+
+<br/><br/>
 ## Setting up the project in your own environment
 
 **Prerequisites** : You must have NodeJs installed on your computer. [Download nodejs](https://nodejs.org/en/).
@@ -64,10 +50,14 @@ This is a static website built with ReactJS.
 
 **Step 3:** run  `npm install` in the command prompt.
 
+
+<br/><br/>
 ## Running the website locally
 
 Execute `yarn start` in the command prompt inside the project directory. This will launch the application on your local machine, which can be accessed through the browser at (by default) [http://localhost:3000](http://localhost:3000). As you make changes to your code and save, the changes will be immediately updated on the browser (you do not need to manually reload every time).
 
+
+<br/><br/>
 ## Folder structure
 
 The following outlines the current project directory structure.
@@ -92,6 +82,7 @@ In conclusion, the majority of the work you do right now will be inside the **co
 
 
 
+<br/><br/>
 ## Pushing your code to the github repo
 
 **You should not directly commit to master**. Instead, you should create another branch, eg. dev, and then push code there. Here's the workflow we fill follow:
