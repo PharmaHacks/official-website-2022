@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css';
 
-export default class Welcome extends React.Component{
+export default class Navbar extends React.Component{
     render(){return(
         <nav className="navbar-container">
             <img src="./images/navbar/pharma_icon.svg" alt="logo" className="n-logo" />
