@@ -30,12 +30,12 @@ export default class BlobCell extends React.Component{
             <svg viewBox="0 0 413 597" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <clipPath id="theClippingPath" > 
                     <path d={this.state.from}>
-                        <animate id="morphStart" dur="0.06s" attributeName="d" 
+                        <animate id="morphStart" dur="0.1s" attributeName="d" 
                         calcMode="spline"
                         keySplines="0.1 0.56 0.84 0.28"
                         fill="freeze"
                         values={this.state.from+";"+this.state.to} />
-                        <animate id="morphEnd" dur="0.06s" attributeName="d" 
+                        <animate id="morphEnd" dur="0.1s" attributeName="d" 
                         calcMode="spline"
                         keySplines="0.1 0.56 0.84 0.28"
                         fill="freeze"
@@ -44,7 +44,7 @@ export default class BlobCell extends React.Component{
                         calcMode="spline"
                         keySplines="0.33 0 0.33 1; 0.33 0 0.33 1"
                         repeatCount="indefinite"
-                        begin="1s"
+                        begin="2s"
                         values={this.state.from+";"+this.state.idle+";"+this.state.from } />
                     </path>
                 </clipPath>
