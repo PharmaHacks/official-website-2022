@@ -1,6 +1,5 @@
 .story-container{
     border-radius: 10px;
-    cursor: pointer;
     height: 350px;
     width: 250px;
     position: relative;
@@ -12,9 +11,9 @@
 .story-container>img{
     position: absolute;
     top:0px;
-    width: 100%;
     height: 100%;
     left:0px;
+    transition: all 200ms ease;
 }
 .story-container>div{
     width: 100%;
@@ -32,6 +31,11 @@
 }
 .story-container>div:hover span{
     margin-top: 0px;
+}
+.story-container:hover img{
+    height: 102%;
+    top:-5px;
+    left:-2px;
 }
 .story-container>div>span{
     color:white;
