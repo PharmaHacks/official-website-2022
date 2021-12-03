@@ -20,7 +20,7 @@ export default class Sponsor extends React.Component{
     return(
         <div className="sponsor-container">
             <span className="sponsor-year">{this.props.year}</span>
-            <div className="sponsor-logo">{
+            <div className="sponsor-image">{
                 this.props.logo?
                 <img src={"/images/sponsors/"+this.props.logo} alt={this.props.name}/>:
                 null
