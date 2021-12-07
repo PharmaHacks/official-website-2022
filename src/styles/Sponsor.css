@@ -59,7 +59,7 @@
     to {opacity: 1;}
 }
 
-.sponsor-logo{
+.sponsor-image{
     position: absolute;
     top:0px;
     left:0px;
@@ -69,6 +69,6 @@
     justify-content: center;
     align-items: center;
 }
-.sponsor-logo>img{
+.sponsor-image>img{
     max-width: 75%;
 }
