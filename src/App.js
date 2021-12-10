@@ -7,7 +7,13 @@ export default class App extends React.Component{
       <div className="App">
         <header className="App-header">
           <p>
-            <code>PharmaHacks 2020 official website</code>
+            <div>
+              <code>PharmaHacks 2022</code>
+            </div>
+            <div>
+              <code>Coming Soon!</code>
+            </div>
+            
           </p>
         </header>
       </div>
