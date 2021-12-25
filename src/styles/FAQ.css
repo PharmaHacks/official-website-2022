@@ -1,0 +1,128 @@
+.faq-container {
+  max-width: 100vw;
+  min-height: 150vh;
+  padding: 10%;
+  /* padding: 80px 211px 71px; */
+  background-color: #fafafa;
+  position: relative;
+}
+
+.faq-title {
+  font-family: Nunito;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #0d141b;
+  margin-bottom: 31px;
+}
+
+.faq-eventDescriptionContainer {
+  background: #ffffff;
+  padding: 42px 76px 46px 45px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.faq-eventDescriptionTitle {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: left;
+
+  color: #000d1b;
+}
+
+.faq-eventDescriptionText {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 13px;
+  color: #000d1b;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-item {
+  height: 100px;
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #000d1b;
+  /* cursor: pointer; */
+  /* padding: 35px;
+  padding-left: 42px; */
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* border: none;
+  outline: none; */
+  transition: 0.4s;
+}
+
+.accordion-button {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34.1px;
+  background-color: #f2f2f2;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: rgb(156, 44, 44);
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faq-additional {
+  text-align: left;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 34px;
+  color: #000000;
+}
+
+.f-backdrop {
+  position: absolute;
+  right: -10px;
+  top: 240px;
+  font-size: 5em;
+  font-weight: bold;
+  opacity: 0.02;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .f-backdrop {
+    display: none;
+  }
+} */
