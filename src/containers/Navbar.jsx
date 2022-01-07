@@ -9,7 +9,8 @@ export default class Navbar extends React.Component{
                 <a href="#welcome">Welcome</a>
                 <a href="#about">About us</a>
                 <a href="#sponsors">Sponsors</a>
-                <a href="#schedule">Schedule</a>
+                {/* <a href="#schedule">Schedule</a> */}
+                <a href="#FAQ">FAQ</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>

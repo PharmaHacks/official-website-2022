@@ -1,0 +1,42 @@
+.contact-container{
+    max-width: 100vw;
+    min-height: 50vh;
+    background-color:#fafafa;
+    position:relative;
+}
+.contact-apply-section{
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    height: 250px;
+    min-height: 37vh;
+}
+.contact-information-section{
+    position: absolute;
+    width: 1453px;
+    height: 255px;
+    min-height: 38px;
+    left: 0px;
+    top: 220px;
+    background: #000D1B;
+}
+.contact-apply-title{
+    position: absolute;
+    height: 55px;
+    left: 209px;
+    top: 31px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: #073766;
+}
+.contact-apply-button{
+    position: absolute;
+    width: 152px;
+    height: 54.34px;
+    left: 1076px;
+    top: 32px;
+}
