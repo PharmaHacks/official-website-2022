@@ -5,7 +5,7 @@ import '../styles/FAQ.css';
 export default class About extends React.Component{
     render(){
         return(
-        <div className="faq-container">
+        <div className="faq-container" id="FAQ">
             <div className="faq-title">We're often asked</div>
 
             <AccordionItem title={"Who is this event for?"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in"} />
