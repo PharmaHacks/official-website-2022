@@ -27,9 +27,9 @@ export default class Contact extends React.Component{
                     <div className = "contact-information-social">
                         <span>Follow us</span>
                         <div className= "contact-information-social-media">
-                        <Social value="/images/contact/facebook.png" action="https://www.facebook.com/StudentPharma/"/>
-                        <Social value="/images/contact/instagram.png" action="https://www.instagram.com/pharma.hacks/"/>
-                        <Social value="/images/contact/linkedin.png" action="https://www.linkedin.com/company/studentpharma/"/>
+                        <Social value="/images/contact/facebook.png" action="https://www.facebook.com/StudentPharma/" alt="Facebook"/>
+                        <Social value="/images/contact/instagram.png" action="https://www.instagram.com/pharma.hacks/" alt="Instagram"/>
+                        <Social value="/images/contact/linkedin.png" action="https://www.linkedin.com/company/studentpharma/" alt="LinkedIn"/>
                         </div>
                     </div>
                 </div>
