@@ -6,7 +6,7 @@ export default class Social extends React.Component{
         return(
             <div className="social-container">
                 <a className = "social-image" href={this.props.action}> 
-                    <img src={this.props.value}/>
+                    <img src={this.props.value} alt={this.props.label}/>
                 </a>
             </div>
         )
