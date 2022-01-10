@@ -51,6 +51,7 @@
   margin-top: 13px;
   color: #000D1B;
   background-color: white;
+  transition: all 220ms ease-in;
 }
 
 .accordion-text-hidden {
