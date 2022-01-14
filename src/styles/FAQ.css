@@ -1,9 +1,7 @@
 .faq-container {
   max-width: 100vw;
   min-height: 75vh;
-  padding: 10%;
-  padding-top: 80px;
-  /* padding: 80px 211px 71px; */
+  padding: 50px 10%;
   background-color: #fafafa;
   position: relative;
 }

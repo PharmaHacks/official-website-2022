@@ -16,15 +16,15 @@ export default class About extends React.Component{
                     <span>Pharmahacks</span>
                 </div>
                 <div className="a-details">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nunc quis euismod cum. Tellus vitae congue ac sit dolor. Massa dignissim porttitor sit elementum sollicitudin facilisi tincidunt hendrerit enim. 
+                PharmaHacks is a hackathon focused on tackling life science problems with computer science solutions. Being the only AI &#38; bioinformatics focused hackathon in Montreal, a biotech hub, we offer a unique reach to the biotech leaders of tomorrow.
                 </div>
             </div>
-            <span className="a-stories-title">Stories from last year</span>
+            <span className="a-stories-title">Stories from 2019</span>
             <div className="a-stories">
-                <Story img="images/about/img1.png" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
-                <Story img="images/about/img2.png" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
-                <Story img="images/about/img3.png" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
-                <Story img="images/about/img4.png" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+                <Story img="images/about/img3.png" text= "The challenges were all very relevant to the current challenges in the industry and required a combination of different set of skills to solve."/>
+                <Story img="images/about/img1.png" text="PharmaHacks brings together the next generation of curious bright minds to solve challenges in the pharmaceutical industry using data science. It was inspiring to see the hundreds of students using data-driven approaches and what they can build in such a short time."/>
+                <Story img="images/about/img2.png" text="I liked that we were given freedom of interpretation of the data." />
+                <Story img="images/about/img4.png" text="I liked how we were solving real world problems." />
                 {/*
                 ---- old design ----
                 <svg viewBox="0 0 396 355" fill="none" xmlns="http://www.w3.org/2000/svg">

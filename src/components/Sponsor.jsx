@@ -8,11 +8,13 @@ export default class Sponsor extends React.Component{
             /* "G" = GOLD ; "S" = Silver */
             tierColors:{
                 "G":"#FFD700",
-                "S":"#C0C0C0"
+                "S":"#C0C0C0",
+                "O": "#000D1B"
             },
             tierNames:{
                 "G":"Gold",
-                "S":"Silver"
+                "S":"Silver",
+                "O":"Startup"
             }
         }
     }

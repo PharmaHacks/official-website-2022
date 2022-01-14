@@ -2,6 +2,7 @@
     min-height: 100vh;
     background-color:#fafafa;
     position: relative;
+    padding-bottom: 10vh;
 }
 .sponsors-text{
     color:white;
@@ -11,6 +12,7 @@
     background-size: cover;
     padding: 10%;
     margin-top: -2px;
+    padding: 100px 10%;
 }
 .sponsors-title{
     font-family: 'Nunito', sans-serif;
@@ -22,6 +24,7 @@
     font-size: 1.3em;
     font-weight: 100;
     opacity: 0.8;
+    padding-bottom: 35vh;
 }
 .sponsors-details>a{
     color:white;

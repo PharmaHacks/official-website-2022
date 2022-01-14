@@ -12,7 +12,7 @@ export default class Contact extends React.Component{
                         <span>Let's get you started!</span>
                     </div>
                     <div className = "contact-apply-button">
-                        <Button value="Apply now" color="red" action="#"/>
+                        <Button value="Apply now" color="red" action="https://forms.gle/WrFMJEzFrfpFfFbQ8"/>
                     </div>
                 </div>
                 <div className= "contact-information-section">
