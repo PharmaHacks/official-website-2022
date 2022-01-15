@@ -5,15 +5,17 @@ export default class Sponsor extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            /* "G" = GOLD ; "S" = Silver */
+            /* "G" = GOLD ; "S" = Silver ; "B" = Bronze */
             tierColors:{
                 "G":"#FFD700",
                 "S":"#C0C0C0",
+                "B": "#cd7f32",
                 "O": "#000D1B"
             },
             tierNames:{
                 "G":"Gold",
                 "S":"Silver",
+                "B":"Bronze",
                 "O":"Startup"
             }
         }
