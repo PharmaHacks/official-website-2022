@@ -1,6 +1,5 @@
 .faq-container {
   max-width: 100vw;
-  min-height: 75vh;
   padding: 50px 10%;
   background-color: #fafafa;
   position: relative;
@@ -39,9 +38,3 @@
   letter-spacing: 5px;
   color: white;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .f-backdrop {
-    display: none;
-  }
-} */

@@ -23,16 +23,15 @@
   font-size: 1.3em;
   font-weight: 100;
   opacity: 0.8;
-}
+
 .sponsors-details > a {
-  color: white;
+  color: #64B5F6;
 }
 .individual-sponsor {
-  margin-top: -45vh;
+  margin-top: -40vh;
   padding: 0px 10%;
   text-align: left;
 }
-
 .year-titles {
   font-family: "Nunito", sans-serif;
   padding-top: 10px;
@@ -40,7 +39,10 @@
   color: white;
   font-size: 2em;
 }
-
+.individual-sponsor>a{
+    color: inherit; 
+    text-decoration: inherit;
+}
 @media only screen and (max-width: 600px) {
   .filler-background {
     background-color: #000d1b;
@@ -53,11 +55,13 @@
   .sponsors-title {
     margin-top: -12vh;
     font-size: 1.8em;
+    padding-bottom: 15vh;
   }
   .sponsors-details {
     margin-top: -12vh;
     font-size: 1.1em;
     letter-spacing: 0.5px;
+    padding-bottom: 10%;
   }
   .individual-sponsor {
     margin-top: -12vh;
@@ -76,3 +80,9 @@
     -webkit-tap-highlight-color: transparent;
   }
 }
+@media only screen and (min-height: 900px) {
+    .sponsors-container {
+        min-height: 0vh;
+    }
+}
+
