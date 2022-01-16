@@ -1,6 +1,6 @@
 .about-container{
     max-width: 100vw;
-    padding: 10px 10%;
+    padding: 10vh 10%;
     background-color: #000D1B;
     position: relative;
 }
@@ -45,11 +45,12 @@
     opacity: 0.8;
     font-size: 1.3em;
     letter-spacing: 1px;
-    font-weight: 100;
+    font-weight: 200;
     display: block;
     align-self: flex-end;
 }
 .a-stories-title{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 15vh;
     text-align: left;
     font-weight: bold;
@@ -70,7 +71,7 @@
     width: 35vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .a-backdrop{
         display: none;
     }
