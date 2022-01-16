@@ -8,6 +8,7 @@ export default class Sponsors extends React.Component{
     return(
         <div className="sponsors-container" id = "sponsors">
             <div className="filler-background" />
+            <div className='sponsors-background'>
             <div className="sponsors-text">
                 <span className="sponsors-title">Sponsors</span>
                 <div className="sponsors-details">Our events are made possible thanks to sponsors. As a sponsor, you’ll have the opportunity to present a challenge, have your own sponsorship booth, host workshops, and/or recruit talented individuals. We offer a platform where sponsors can observe first hand the growth of our participants throughout the weekend and recruit exceptional hackers.
@@ -30,6 +31,7 @@ export default class Sponsors extends React.Component{
                        <Sponsor tier="S" year="2019" logo="iqvia.png"/>
                     </a>
                     <a href="mailto:contact@pharmahacks.com" target="_blank" rel="noopener noreferrer"><NewSponsor /></a>
+                </div>
                 </div>
             </div>
         </div>
