@@ -14,19 +14,23 @@ export default class Sponsors extends React.Component{
                     If you want to support us and bring students together for this year’s hackathon, check out our packages <a href = "/Sponsorship-Package.pdf" target="_blank" rel="noopener noreferrer">here.</a></div>
             </div>
             <div className="individual-sponsor">
+                <div className="year-titles">Current</div>
                 <a href="https://www.phyla.ai" target="_blank" rel="noopener noreferrer">
-                    <Sponsor tier="O" year="2022" logo="phyla.png"/>
+                  <Sponsor tier="O" year="2022" logo="phyla.png"/>
                 </a>
-                <a href="https://www.novartis.ca" target="_blank" rel="noopener noreferrer">
-                    <Sponsor tier="G" year="2019" logo="novartis.png"/>
-                </a>
-                <a href="https://www.boehringer-ingelheim.ca" target="_blank" rel="noopener noreferrer">
-                    <Sponsor tier="S" year="2019" logo="boehringer.png"/>
-                </a>
-                <a href="https://www.iqvia.com/" target="_blank" rel="noopener noreferrer">
-                <Sponsor tier="S" year="2019" logo="iqvia.png"/>
-                </a>
-                <a href="mailto:contact@pharmahacks.com" target="_blank" rel="noopener noreferrer"><NewSponsor /></a>
+                <div className="year-titles">Previous</div>
+                <div> 
+                    <a href="https://www.novartis.ca" target="_blank" rel="noopener noreferrer">
+                       <Sponsor tier="G" year="2019" logo="novartis.png"/>
+                    </a>
+                    <a href="https://www.boehringer-ingelheim.ca" target="_blank" rel="noopener noreferrer">
+                       <Sponsor tier="S" year="2019" logo="boehringer.png"/>
+                    </a>
+                    <a href="https://www.iqvia.com/" target="_blank" rel="noopener noreferrer">
+                       <Sponsor tier="S" year="2019" logo="iqvia.png"/>
+                    </a>
+                    <a href="mailto:contact@pharmahacks.com" target="_blank" rel="noopener noreferrer"><NewSponsor /></a>
+                </div>
             </div>
         </div>
     )}
