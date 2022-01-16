@@ -26,6 +26,7 @@
 }
 .sponsors-details > a {
   color: #64B5F6;
+  font-weight: 400;
 }
 .individual-sponsor {
   margin-top: -40vh;
