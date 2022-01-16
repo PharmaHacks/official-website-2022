@@ -21,7 +21,7 @@
 }
 .sponsors-details {
   font-size: 1.3em;
-  font-weight: 100;
+  font-weight: 200;
   opacity: 0.8;
 }
 .sponsors-details > a {
@@ -34,13 +34,14 @@
   text-align: left;
 }
 .year-titles {
+  font-family: 'Montserrat', sans-serif;
   padding-top: 10px;
   text-align: left;
   color: #00509E;
   font-size: 2em;
   letter-spacing: 1px;
   display: block;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .individual-sponsor>a{
