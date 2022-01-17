@@ -30,7 +30,7 @@ export default class Welcome extends React.Component{
                 <img src="./images/welcome/pharma_logo_2022_loc.svg" alt="Pharmahacks 2022" className="w-title-text-svg" /> 
             </picture> 
             <br/>
-                <Button value="Apply now" color="red" action="https://forms.gle/WrFMJEzFrfpFfFbQ8" />
+                <Button value="Apply now" color="red" action="https://forms.gle/Q541pmpms2UyMRy77" />
             </div>
             <img className="w-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" />
         </div>
