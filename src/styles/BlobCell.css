@@ -1,0 +1,12 @@
+.blob-cell{
+    width: 20vw;
+    display: inline-block;
+}
+.b-background{
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .blob-cell{
+        width: 50vw;
+    }
+}

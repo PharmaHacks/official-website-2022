@@ -1,0 +1,22 @@
+.button-container{
+    width: 120px;
+    line-height: 50px;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.red{
+    background-color: rgb(225, 55, 55);
+}
+.red:hover{
+    background-color: rgb(233, 71, 71);
+}
+.red:active{
+    background-color: rgb(247, 86, 86);
+}
