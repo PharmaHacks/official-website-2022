@@ -16,9 +16,12 @@ export default class Sponsors extends React.Component{
             </div>
             <div className="individual-sponsor">
                 <div className="year-titles" id = "current">Current</div>
+                <a href="https://www.mcgill.ca/pharma/" target="_blank" rel="noopener noreferrer">
+                  <Sponsor tier="P" year="2022" logo="mcgillPharma.png"/>
+                </a>
                 <a href="https://www.phyla.ai" target="_blank" rel="noopener noreferrer">
                   <Sponsor tier="O" year="2022" logo="phyla.png"/>
-                </a>
+                </a>  
                 <div className="year-titles" id = "previous">Previous</div>
                 <div className='previous-sponsors'> 
                     <a href="https://www.novartis.ca" target="_blank" rel="noopener noreferrer">
