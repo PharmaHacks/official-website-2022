@@ -10,13 +10,15 @@ export default class Sponsor extends React.Component{
                 "G":"#FFD700",
                 "S":"#C0C0C0",
                 "B": "#cd7f32",
-                "O": "#000D1B"
+                "O": "#000D1B",
+                "P": "rgba(66, 0, 255, 0.5)",
             },
             tierNames:{
                 "G":"Gold",
                 "S":"Silver",
                 "B":"Bronze",
-                "O":"Startup"
+                "O":"Startup",
+                "P":"Pharma",
             }
         }
     }
