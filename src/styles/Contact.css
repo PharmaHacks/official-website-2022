@@ -88,6 +88,19 @@
     text-align: left;
     background-color: transparent;
 }
+.code-of-conduct{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-top: 40px;
+}
+.code-of-conduct>a{
+    color: inherit; 
+    text-decoration: inherit;
+}
 @media screen and (max-width: 600px) {
     .contact-apply-section{
      display: flex;

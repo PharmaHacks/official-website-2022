@@ -20,6 +20,11 @@ export default class Contact extends React.Component{
                         <span>Trottier Building, McGill University</span>
                         <span>3630 Rue University,</span>
                         <span>Montréal, QC H2A 2B3</span>
+                        <div className='code-of-conduct'>
+                        <a id = "mlh-code-of-conduct" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer">
+                            <span> MLH Code of Conduct</span>
+                        </a>
+                        </div>
                     </div>
                     <div className= "contact-information-email">
                         <span><a href="mailto:contact@pharmahacks.com">contact@pharmahacks.com</a></span>
