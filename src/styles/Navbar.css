@@ -2,6 +2,10 @@
     height: 70px;
     line-height: 70px;
     padding: 20px 15vw;
+    position: fixed;
+    top: 0px;
+    z-index:10000;
+    width:100%;
 }
 
 .n-logo{
@@ -13,7 +17,7 @@
     opacity: 1;
 }
 .n-items{
-    float: right;
+    right: 100px;
 }
 .n-items>a{
     text-transform: uppercase;
@@ -32,12 +36,21 @@
     opacity: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     .n-logo{
         max-width: 8vw;
         margin-left: -10vw;
     }
     .n-items{
         display: none;
+    }
+    .navbar-container{
+        color: transparent;
+        position: inherit;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .n-items{
+        margin-right: 30%;
     }
 }
