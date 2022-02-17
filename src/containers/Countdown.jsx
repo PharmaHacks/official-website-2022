@@ -4,7 +4,7 @@ import { add } from 'date-fns';
 
 import { Ticker } from '../components/Ticker';
 
-import style from '../styles/Countdown.css';
+import '../styles/Countdown.css';
 
 const calculateTimeLeft = () => {
 

@@ -10,9 +10,10 @@
 }
 .pageContainer .title {
   color: white;
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: Nunito;
 }
 .text {
   color: white;
@@ -20,7 +21,7 @@
 }
 .pageContainer .toggleButton {
   padding: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.0rem;
   margin-top: 2.5rem;
   border: 1px solid #11357e;
   background: white;
@@ -29,6 +30,7 @@
   color: #11357e;
   font-weight: 600;
   cursor: pointer;
+  font-family: Nunito;
 }
 .pageContainer .toggleButton:hover {
   border: 1px solid #1e4aa1;

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../styles/TickerCell.css';
+import '../styles/TickerCell.css';
 
 export const TickerCell = ({ label, value }) => {
     const formattedValue = value < 10 ? `0${value}`: value.toString();
