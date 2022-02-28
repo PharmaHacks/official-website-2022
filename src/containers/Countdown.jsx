@@ -8,7 +8,7 @@ import '../styles/Countdown.css';
 
 const calculateTimeLeft = () => {
 
-  let difference = +new Date(`03/08/2022`) - +new Date();
+  let difference = +new Date(`03/26/2022`) - +new Date();
 
   let timeLeft = {};
 
@@ -39,7 +39,7 @@ function Countdown() {
 
   return (
     <div className="pageContainer">
-      <div className="title">Application Extension Ends In</div>
+      <div className="title">PharmaHacks Launches In</div>
       { tickerEl }
       <button 
         className="toggleButton" 
