@@ -28,6 +28,9 @@ export default class Sponsors extends React.Component{
                 <a href="https://www.ssmu.ca" target="_blank" rel="noopener noreferrer">
                   <Sponsor tier="P" year="2022" logo="ssmu.png"/>
                 </a>
+                <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
+                  <Sponsor tier="B" year="2022" logo="pfizer.png"/>
+                </a>
                 <a href="mailto:contact@pharmahacks.com" target="_blank" rel="noopener noreferrer"><NewSponsor /></a>
                 {/* <div className="year-titles" id = "previous">Previous</div>
                 <div className='previous-sponsors'> 
