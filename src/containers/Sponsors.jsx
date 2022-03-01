@@ -16,6 +16,12 @@ export default class Sponsors extends React.Component{
             </div>
             <div className="individual-sponsor">
                 {/* <div className="year-titles" id = "current">Current</div> */}
+                <a href="https://www.ssmu.ca" target="_blank" rel="noopener noreferrer">
+                  <Sponsor tier="P" year="2022" logo="ssmu.png"/>
+                </a>
+                <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
+                  <Sponsor tier="B" year="2022" logo="pfizer.png"/>
+                </a>
                 <a href="https://www.talent-accelerator.com/medical-technology-talent-accelerator/home" target="_blank" rel="noopener noreferrer">
                   <Sponsor tier="B" year="2022" logo="medtech.png"/>
                 </a>
@@ -24,13 +30,7 @@ export default class Sponsors extends React.Component{
                 </a>
                 <a href="https://www.phyla.ai" target="_blank" rel="noopener noreferrer">
                   <Sponsor tier="O" year="2022" logo="phyla.png"/>
-                </a>  
-                <a href="https://www.ssmu.ca" target="_blank" rel="noopener noreferrer">
-                  <Sponsor tier="P" year="2022" logo="ssmu.png"/>
-                </a>
-                <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
-                  <Sponsor tier="B" year="2022" logo="pfizer.png"/>
-                </a>
+                </a>                 
                 <a href="mailto:contact@pharmahacks.com" target="_blank" rel="noopener noreferrer"><NewSponsor /></a>
                 {/* <div className="year-titles" id = "previous">Previous</div>
                 <div className='previous-sponsors'> 
