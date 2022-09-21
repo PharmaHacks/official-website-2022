@@ -8,7 +8,7 @@ import '../styles/Countdown.css';
 
 const calculateTimeLeft = () => {
 
-  let difference = +new Date(`03/01/2022`) - +new Date();
+  let difference = +new Date(`09/30/2022`) - +new Date();
 
   let timeLeft = {};
 
@@ -39,7 +39,7 @@ function Countdown() {
 
   return (
     <div className="pageContainer">
-      <div className="title">Applications Due In</div>
+      <div className="title">Early Registrations Are DUE In</div>
       { tickerEl }
       <button 
         className="toggleButton" 
