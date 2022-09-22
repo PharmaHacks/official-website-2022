@@ -46,7 +46,7 @@
   position: absolute;
   bottom: -30px;
   right: -35px;
-  width: 90px;
+  width: 100px;
   height: 20px;
   line-height: 20px;
 }
@@ -75,3 +75,6 @@
 .sponsor-image > img {
   max-width: 75%;
 }
+
+
+

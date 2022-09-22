@@ -9,7 +9,6 @@ import '../styles/Countdown.css';
 const calculateTimeLeft = () => {
 
   let difference = +new Date(`09/30/2022`) - +new Date();
-
   let timeLeft = {};
 
   if (difference > 0) {

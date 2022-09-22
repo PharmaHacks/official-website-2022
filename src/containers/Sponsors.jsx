@@ -45,7 +45,6 @@ export default class Sponsors extends React.Component{
                 <div className='previous-sponsors'> 
                     
                 </div> }
-                
                 </div>
             </div>
         </div>
