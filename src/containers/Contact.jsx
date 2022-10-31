@@ -9,7 +9,7 @@ export default class Contact extends React.Component{
             <div className= "contact-container" id = "contact">
                 <div className= "contact-apply-section">
                     <div className = "contact-apply-title">
-                        <span>PharmaHacks Committee Applications Are Also Open!</span>
+                        <span>Join the Team!</span>
                     </div>
                     <div className = "contact-apply-button">
                         <Button value="Apply now" color="red" action="https://docs.google.com/forms/d/e/1FAIpQLScoX3gSVKMg1yEoyZkjvcPtqChwtktEByFRoUPasfdc-n4N0w/viewform"/>
