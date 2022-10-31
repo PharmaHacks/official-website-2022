@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
 import Welcome from '../containers/Welcome';
-import Countdown from '../containers/Countdown';
+// import Countdown from '../containers/Countdown';
 import About from '../containers/About';
 import Sponsors from '../containers/Sponsors';
 import FAQ from '../containers/FAQ';

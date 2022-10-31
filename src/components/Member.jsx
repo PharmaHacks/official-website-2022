@@ -3,7 +3,7 @@ import '../styles/Member.css';
 
 export default class Member extends React.Component{
     render(){
-        const isPresident = (this.props.position === "President");
+        // const isPresident = (this.props.position === "President");
         return(
             // <div>
             //     {isPresident ? 
