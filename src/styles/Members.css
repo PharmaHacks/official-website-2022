@@ -1,0 +1,57 @@
+.members-container{
+    background-color: #000D1B;
+    max-width: 100vw;
+    min-height: 75vh;
+    display: grid;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 70px 0px 20px;
+    /* position: relative; */
+}
+
+.m-prez{
+    /* border: 3px solid #fff; */
+    display: inline-block;
+    align-items: center;
+    margin: 1em 1em 5em;
+}
+
+.m-prezText{
+    font-family: 'Posterama', sans-serif;
+    color: white;
+    margin: 2em 6em;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.m-presQuotation{
+    color: #64B5F5;
+}
+
+.m-list{
+    display: flexbox;
+    max-width: 100vw;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+.m-committees{
+    max-width: 100vw;
+    font-family: 'Posterama', sans-serif;
+    color: white;
+    margin: 1.3em 0em 0.7em;
+    font-size: 3em;
+    font-weight: bold;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .m-prezText{
+        font-size: 0.8em;
+    }
+}

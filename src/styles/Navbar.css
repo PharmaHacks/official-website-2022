@@ -1,7 +1,7 @@
 .navbar-container{
     height: 70px;
     line-height: 70px;
-    padding: 20px 15vw;
+    padding: 10px 15vw 10px;
     position: fixed;
     top: 0px;
     z-index:10000;
@@ -10,6 +10,8 @@
 
 .n-logo{
     float: left;
+    margin-top: 10px;
+    margin-left: -12vw;
     opacity: 0.5;
     transition: all linear 120ms;
 }
@@ -17,15 +19,14 @@
     opacity: 1;
 }
 .n-items{
-    right: 100px;
+    right: 0px;
 }
 .n-items>a{
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
     color: white;
-    padding: 0px 10px;
-    margin: 0px 10px;
+    margin: 0px 40px 0px 0px;
     font-size: 0.8em;
     opacity: 0.6;
     transition: all linear 120ms;
@@ -36,7 +37,7 @@
     opacity: 1;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
     .n-logo{
         max-width: 8vw;
         margin-left: -10vw;
@@ -46,7 +47,7 @@
     }
     .navbar-container{
         color: transparent;
-        position: inherit;
+        /* position: inherit; */
     }
 }
 @media only screen and (max-width: 1200px) {
