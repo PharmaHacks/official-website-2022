@@ -1,6 +1,6 @@
 @font-face {
     font-family: Posterama;
-    src: url("public/fonts/Posterama 2001 W04 SemiBold.ttf");
+    src: url("/fonts/Posterama 2001 W04 SemiBold.ttf");
 }
 .member-container{
     border-radius: 10px;
