@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/03d33d67fd07fb2d31001eb9f90d58bf?family=Posterama);
+@font-face {
+    font-family: Posterama;
+    src: url("public/fonts/Posterama 2001 W04 SemiBold.ttf");
+}
 .members-container{
     background-color: #000D1B;
     max-width: 100vw;
