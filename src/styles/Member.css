@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Posterama';
+    src: url("/fonts/Posterama 2001 W04 SemiBold.ttf");
+}
 .member-container{
     border-radius: 10px;
     height: 30vh;
