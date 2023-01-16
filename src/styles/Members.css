@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Posterama';
-    src: url("/fonts/Posterama 2001 W04 SemiBold.ttf");
+    src: url("/fonts/Posterama 2001 W04 SemiBold.ttf") format("opentype");
 }
 .members-container{
     background-color: #000D1B;
