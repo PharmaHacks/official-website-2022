@@ -1,11 +1,10 @@
 import React from 'react';
-import Button from '../components/Button';
-import '../styles/Welcome.css';
+import '../styles/Teams.css';
 
-export default class Welcome extends React.Component{
+export default class Teams extends React.Component{
     render(){return(
-        <div className="welcome-container" id="welcome">
-            <div className="w-background-container">
+        <div className="teams-container" id="teams">
+            <div className="t-background-container">
             <svg viewBox="0 0 1174 795" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.101787 350.455C5.10179 196.955 68.6018 25.4547 283.602 1.95469C498.602 -21.5453 545.997 174.29 656.602 190.455C790.053 209.958 1002.71 13.2647 1129.6 58.9547C1255.74 104.374 1068.92 339.283 1049.6 471.955C1029.59 609.399 1013.05 671.301 889.602 734.955C739.308 812.451 555.102 809.955 365.102 754.955C175.102 699.955 -4.89821 503.955 0.101787 350.455Z" fill="#C4C4C4" fillOpacity="0.04">
                 <animate dur="15s" repeatCount="indefinite" attributeName="d" 
@@ -24,15 +23,20 @@ export default class Welcome extends React.Component{
             </svg>
 
             </div>
-            <div className="w-title-section">
+            <div className='t-title'>
+                <span>Meet the</span><br/>
+                <span>Team</span><br/>
+            </div>
+            
+            {/* <div className="t-title-section">
             <picture>
                 <source srcset="./images/welcome/pharma_logo_2022.svg" media="(max-width: 600px)"/>
-                <img src="./images/welcome/pharma_logo_2022.svg" alt="Pharmahacks 2022" className="w-title-text-svg" />
+                <img src="./images/welcome/pharma_logo_2022.svg" alt="Pharmahacks 2022" className="-title-text-svg" />
             </picture> 
             <br/>
                 <Button value="Apply now" color="red" action="https://docs.google.com/forms/d/e/1FAIpQLSfZqKl6JNv9ZYKloHqidzdJ8I4jg1Fp3WqcEL01wmBJORUxHQ/viewform" />
             </div>
-            <img className="w-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" />
+            <img className="t-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" /> */}
         </div>
     )}
 }

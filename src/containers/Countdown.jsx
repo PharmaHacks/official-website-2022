@@ -8,8 +8,7 @@ import '../styles/Countdown.css';
 
 const calculateTimeLeft = () => {
 
-  let difference = +new Date(`03/26/2022`) - +new Date();
-
+  let difference = +new Date(`09/30/2022`) - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
@@ -39,7 +38,7 @@ function Countdown() {
 
   return (
     <div className="pageContainer">
-      <div className="title">PharmaHacks Launches In</div>
+      <div className="title">Early Registrations Are DUE In</div>
       { tickerEl }
       <button 
         className="toggleButton" 
