@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import BlobCell from '../components/BlobCell';
-import Story from '../components/Story';
+// import Story from '../components/Story';
 
 export default class About extends React.Component{
     render(){return(
