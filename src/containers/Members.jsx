@@ -37,6 +37,7 @@ export default class Members extends React.Component{
                         <Member img="Goktug.png" n="Goktug Bender" position="Sponsorship" field="U3 Microbio/Immunology"/>
                         <Member img="Mira.png" n="Mira Zaboube" position="Sponsorship" field="U1 Pharmacology"/>
                         <Member img="Mozhdeh.png" n="Mozhdeh Zaboube" position="Sponsorship" field="U1 Pharmacology"/>
+                        <Member img="Faith.png" n="Faith Bendall" position="Sponsorship" field=" U2 Pharmacology"/>
                     </div>
                     <div className='m-committees'><span>Finance</span></div> 
                     <div className='m-list'>
@@ -46,12 +47,14 @@ export default class Members extends React.Component{
                     <div className='m-list'>
                         <Member img="Yuan.png" n="Yuan Ding" position="VP Logistics" field="U3 Neuroscience"/>
                         <Member img="Nazia.png" n="Nazia Chowdhury" position="Logistics" field="U1 Software Engineering"/>
+                        <Member img="Feiteng.png" n="Feiteng Lin" position="Logistics" field="U2 Pharmacology"/>
                     </div>
                     <div className='m-committees'><span>Communications</span></div> 
                     <div className='m-list'>
                         <Member img="Faye.png" n="Faye Nikolettos" position="VP Communications" field="U2 Neuroscience"/>
                         <Member img="Carine.png" n="Carine Zbibo" position="Communications" field="U1 Pharmacology"/>
                         <Member img="Jessica.png" n="Jessica Huang" position="Communications" field="U2 Pharmacology"/>
+                        
                     </div>
                     <div className='m-committees'><span>Machine Learning</span></div> 
                     <div className='m-list'>
@@ -62,11 +65,8 @@ export default class Members extends React.Component{
                     <div className='m-committees'><span>Web Development</span></div> 
                     <div className='m-list'>
                         <Member img="Max.png" n="Max Tong" position="VP Web Development" field="U3 CompSci/Bio"/>
+                        <Member img="Yvona.png" n="Yvona Acimovic" position="Web Dev" field="U3 CompSci"/>
                     </div>
-                        {/*  */}
-                        {/* <Member img="Yvona.png" n="Yvona Acimovic" position="Web Dev" field="U3 CompSci"/> */}
-                        {/* <Member img="Faith.png" n="Faith " position="Sponsorship" field="?"/> */}
-                        {/* <Member img="Feiteng.png" n="Feiteng ?" position="Logistics" field="?"/> */}
                 </div>
             </div>
         </div>

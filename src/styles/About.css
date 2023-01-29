@@ -24,10 +24,12 @@
 }
 .a-title{
     text-align: left;
+    width: 100%;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     display: inline-block;
-    margin-left: -200px;
+    margin-top: 2vh;
+    margin-left: -12vw;
     line-height: 35px;
 }
 .a-title>span:nth-child(1){
@@ -41,6 +43,8 @@
 .a-details{
     float: right;
     max-width: 60vw;
+    margin-left: 6vw;
+    margin-bottom: 1.5vw;
     text-align: right;
     opacity: 0.8;
     font-size: 1.3em;
@@ -80,6 +84,7 @@
     }
     .a-title{
         margin-left: 0px;
+        margin-top: -4vh;
         font-size:12px;
         position: absolute;
         top:30%;
@@ -90,6 +95,7 @@
     }
     .a-details{
         max-width: 80vw;
+        margin-top: 4vw;
         text-align: center;
         float: none;
     }
