@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import BlobCell from '../components/BlobCell';
-import Story from '../components/Story';
+// import Story from '../components/Story';
 
 export default class About extends React.Component{
     render(){return(
@@ -16,16 +16,18 @@ export default class About extends React.Component{
                     <span>Pharmahacks</span>
                 </div>
                 <div className="a-details">
-                PharmaHacks is a hackathon focused on tackling life science problems with computer science solutions. Being the only AI &#38; bioinformatics focused hackathon in Montreal, a biotech hub, we offer a unique reach to the biotech leaders of tomorrow.
+                {/* PharmaHacks is a hackathon focused on tackling life science problems with computer science solutions. Being the only AI &#38; bioinformatics focused hackathon in Montreal, a biotech hub, we offer a unique reach to the biotech leaders of tomorrow. */}
+                "PharmaHacks McGill is a McGill University affiliated non-profit organization. "PharmaHacks" is an annual life-science-themed hackathon focusing on tackling problems in the biotechnology and pharmaceutical industry. We offer university- and graduate-level talents across Canada the opportunity to create computer programs that solve biopharmaceutical-, AI- and bioinformatics-focused challenges. At the same time, we help our sponsors to expand their talent database and to connect with passionate industry-ready students through the event."
                 </div>
             </div>
-            <span className="a-stories-title">Stories from 2019</span>
+            {/* <span className="a-stories-title">Stories from 2019</span> */}
+            {/*
             <div className="a-stories">
                 <Story img="images/about/img3.png" text= "The challenges were all very relevant to the current challenges in the industry and required a combination of different set of skills to solve."/>
                 <Story img="images/about/img1.png" text="PharmaHacks brings together the next generation of curious bright minds to solve challenges in the pharmaceutical industry using data science. It was inspiring to see the hundreds of students using data-driven approaches and what they can build in such a short time."/>
                 <Story img="images/about/img2.png" text="I liked that we were given freedom of interpretation of the data." />
                 <Story img="images/about/img4.png" text="I liked how we were solving real world problems." />
-                {/*
+                
                 ---- old design ----
                 <svg viewBox="0 0 396 355" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <clipPath id="image1_clip" >
@@ -50,8 +52,8 @@ export default class About extends React.Component{
                     <path d="M24.4778 223.076C34.1773 136.405 -1.91107 63.3902 80.7129 24.7049C175.308 -19.5856 275.761 -4.15561 346.815 69.6398C403.48 128.491 416.125 190.721 396.093 268.011C375.228 348.52 327.983 396.56 245.94 425.831C156.167 457.859 90.0459 458.624 24.4779 392.404C-26.4461 340.973 16.6383 293.127 24.4778 223.076Z" fill="#C4C4C4"/>
                     </clipPath>
                     <image xlinkHref="/images/about/img4.png" className="b-background" clipPath="url(#image4_clip)"></image>
-                </svg> */}
-            </div>
+                </svg> 
+            </div> */}
         </div>
     )}
 }
