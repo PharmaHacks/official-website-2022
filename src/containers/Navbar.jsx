@@ -42,12 +42,13 @@ export default class Navbar extends React.Component{
             </a> */}
             <img src="./images/navbar/pharma_icon.svg" alt="logo" className="n-logo" style={{opacity : this.state.status === "top" ? "0.5" : "1"}}/>
             <div className="n-items">
-                <a href="/#welcome">Welcome</a>
-                <a href="/#about">About us</a>
-                <a href="/#sponsors">Sponsors</a>
+                <a href="/#welcome">Home</a>
+                <a href="/Hackathon2023">Hack</a>
+                {/* <a href="/#about">About us</a> */}
+                {/* <a href="/#sponsors">Sponsors</a> */}
                 {/* <a href="#schedule">Schedule</a> */}
-                <a href="/#FAQ">FAQ</a>
-                <a href="/#contact">Contact</a>
+                {/* <a href="/#FAQ">FAQ</a> */}
+                {/* <a href="/#contact">Contact</a> */}
                 <a href ="/Team">Team</a>
             </div>
         </nav>

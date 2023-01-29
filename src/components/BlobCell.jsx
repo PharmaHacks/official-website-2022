@@ -27,7 +27,7 @@ export default class BlobCell extends React.Component{
 
     render(){return(
         <div className="blob-cell" onMouseEnter={()=>{this.setState({active:true})}} onMouseLeave={()=>{this.setState({active:false})}}>
-            <svg viewBox="0 0 413 597" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 -50 413 597" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <clipPath id="theClippingPath" > 
                     <path d={this.state.from}>
                         <animate id="morphStart" dur="0.1s" attributeName="d" 
@@ -48,7 +48,7 @@ export default class BlobCell extends React.Component{
                         values={this.state.from+";"+this.state.idle+";"+this.state.from } />
                     </path>
                 </clipPath>
-                <image xlinkHref="/images/blobcell/marble_1.png" className="b-background" clipPath="url(#theClippingPath)"></image>
+                <image xlinkHref="/images/blobcell/marble_2.png" className="b-background" clipPath="url(#theClippingPath)"></image>
             </svg>
 
         </div>
