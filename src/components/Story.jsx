@@ -6,7 +6,7 @@ export default class Story extends React.Component{
         return(
             <div className="story-container">
                 <img src={this.props.img} alt="Story" />
-                <div>
+                <div className="story-words">
                    <span><i>{'"'+this.props.text+'"'}</i></span>
                 </div>
             </div>
