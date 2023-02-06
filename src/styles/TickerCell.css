@@ -1,16 +1,43 @@
+@font-face {
+  font-family: 'Posterama';
+  src: url("/fonts/Posterama 2001 W04 SemiBold.ttf") format("opentype");
+}
+
 .tickerCell {
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-radius: 5px;
+  max-width: 200px;
+  color: #000D1B;
+  /* line-height: 50px; */
+  /* background-color: aliceblue; */
+  padding: 0px 0px 1vh 0px;
+  font-family: 'Posterama';
 }
 .tickerCell > .tickerCellValue {
-  font-size: 5.5rem;
-  font-family: Nunito;
+  font-size: 4rem;
+  font-family: 'Montserrat', 'sans-serif';
 }
 .tickerCell > .tickerCellLabel {
   font-style: italic;
-  font-family: Nunito;
+}
+
+.red{
+  background-color: #EF2F3C;
+}
+
+.blue{
+  background-color: #276FBF;
+}
+
+.white{
+  background-color: #F6F4F3;
+}
+
+.yellow{
+  background-color: #F0A202;
 }
 
 @media only screen and (max-width: 850px) {

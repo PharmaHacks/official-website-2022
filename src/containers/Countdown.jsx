@@ -32,20 +32,20 @@ const futureDate = add(new Date(), {
 });
 
 function Countdown() {
-  const [tickerVisible, setTickerVisible] = useState(true);
+  const [tickerVisible] = useState(true);
   const tickerEl = tickerVisible ? <Ticker futureDate={futureDate} /> : null;
-  const toggleText = tickerVisible ? 'Hide Countdown': 'Show Countdown';
+  // const toggleText = tickerVisible ? 'Hide Countdown': 'Show Countdown';
 
   return (
     <div className="pageContainer">
       <div className="title">Early Registrations Are DUE In</div>
       { tickerEl }
-      <button 
+      {/* <button 
         className="toggleButton" 
         onClick={() => setTickerVisible(prev => !prev) }
       >
         { toggleText }
-      </button>
+      </button> */}
     </div>  
   );
 }

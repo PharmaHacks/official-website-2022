@@ -45,10 +45,11 @@
   font-size: 0.7em;
   position: absolute;
   bottom: -30px;
-  right: -35px;
-  width: 100px;
+  right: -50px;
+  width: 120px;
   height: 20px;
   line-height: 20px;
+  z-index: 100;
 }
 .sponsor-tier:hover .sponsor-tooltip {
   display: block;
