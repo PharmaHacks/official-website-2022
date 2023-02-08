@@ -11,13 +11,13 @@ export const Ticker = ({ futureDate }) => {
         <div className="timeIsUp">Applications are now closed</div>
     ) : (
         <>
-            <TickerCell value={days} label="Days" />
+            <TickerCell value={days} label="Days" color="red"/>
             <TickerSeparator />
-            <TickerCell value={hours} label="Hours" />
+            <TickerCell value={hours} label="Hours" color="blue"/>
             <TickerSeparator />
-            <TickerCell value={minutes} label="Minutes" />
+            <TickerCell value={minutes} label="Minutes" color="white"/>
             <TickerSeparator />
-            <TickerCell value={seconds} label="Seconds" />
+            <TickerCell value={seconds} label="Seconds" color="yellow"/>
         </>
     );
 

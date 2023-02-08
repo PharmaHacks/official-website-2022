@@ -20,7 +20,7 @@ export default class About extends React.Component{
                 "PharmaHacks McGill is a McGill University affiliated non-profit organization. "PharmaHacks" is an annual life-science-themed hackathon focusing on tackling problems in the biotechnology and pharmaceutical industry. We offer university- and graduate-level talents across Canada the opportunity to develop computer programs that solve biopharmaceutical-, AI- and bioinformatics-focused challenges. We work with our sponsors to expand their talent database and to connect with passionate industry-ready students."
                 </div>
             </div>
-            <span className="a-stories-title">Stories from 2019</span>
+            <span className="a-stories-title">Past Testimonials</span>
             
             <div className="a-stories">
                 <Story img="images/about/img3.png" text= "The challenges were all very relevant to the current challenges in the industry and required a combination of different set of skills to solve."/>
