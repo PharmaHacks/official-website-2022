@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Posterama';
+  src: url("/fonts/Posterama 2001 W04 SemiBold.ttf") format("opentype");
+}
+
 .tickerShell {
   align-self: stretch;
   display: flex;
   /* border: 1px solid white; */
   padding: 60px;
+  justify-content: center;
 }
 .tickerShell .timeIsUp {
   flex: 1;
@@ -10,6 +16,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Posterama';
 }
 
 @media only screen and (max-width: 850px) {

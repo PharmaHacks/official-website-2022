@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import '../styles/MLH.css'
+import Button from '../components/Button';
 
 export default class Navbar extends React.Component{
     constructor(props) {
@@ -41,15 +42,23 @@ export default class Navbar extends React.Component{
                 <img className= "mlh" src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-gray.svg" alt="Major League Hacking 2022 Hackathon Season" />   
             </a> */}
             <img src="./images/navbar/pharma_icon.svg" alt="logo" className="n-logo" style={{opacity : this.state.status === "top" ? "0.5" : "1"}}/>
-            <div className="n-items">
-                <a href="/#welcome">Home</a>
-                <a href="/Hackathon2023">Hack</a>
+            <div className="n-tabs">
+                <div className="n-items">
+                  <a href="/#welcome">Home</a>
+                  <a href="/Hackathon2023">Hack</a>
+                  <a href ="/Team">Team</a>
+                </div>
                 {/* <a href="/#about">About us</a> */}
                 {/* <a href="/#sponsors">Sponsors</a> */}
                 {/* <a href="#schedule">Schedule</a> */}
                 {/* <a href="/#FAQ">FAQ</a> */}
                 {/* <a href="/#contact">Contact</a> */}
-                <a href ="/Team">Team</a>
+                
+                <div className="n-buttons">
+                  <Button value="Sponsor Us!" color="lblue" action="mailto:contact@pharmahacks.com" />
+                  <div style={{"width": "1vw"}}></div>
+                  <Button value="Apply Now" color="red" action="https://docs.google.com/forms/d/e/1FAIpQLSfZqKl6JNv9ZYKloHqidzdJ8I4jg1Fp3WqcEL01wmBJORUxHQ/viewform" />
+                </div>
             </div>
         </nav>
     )}

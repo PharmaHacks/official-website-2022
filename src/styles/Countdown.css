@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Posterama';
+  src: url("/fonts/Posterama 2001 W04 SemiBold.ttf") format("opentype");
+}
+
 .pageContainer {
   display: flex;
   flex-direction: column;
@@ -7,13 +12,13 @@
   max-width: 80vw;
   padding: 0 10% 50px 10%;
   color: white;
+  font-family: 'Posterama';
 }
 .pageContainer .title {
   color: white;
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: Nunito;
 }
 .text {
   color: white;
@@ -30,7 +35,6 @@
   color: #11357e;
   font-weight: 600;
   cursor: pointer;
-  font-family: Nunito;
 }
 .pageContainer .toggleButton:hover {
   border: 1px solid #1e4aa1;

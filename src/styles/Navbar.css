@@ -1,8 +1,9 @@
 .navbar-container{
     height: 70px;
     line-height: 70px;
-    padding: 10px 15vw 10px;
+    padding: 10px 0vw 10px 15vw;
     position: fixed;
+    
     top: 0px;
     z-index:10000;
     width:100%;
@@ -15,11 +16,20 @@
     opacity: 0.5;
     transition: all linear 120ms;
 }
+.n-tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+    margin-right: 2vw;
+}
 .n-logo:hover{
     opacity: 1;
 }
+
 .n-items{
     right: 0px;
+    display: inline-block;
 }
 .n-items>a{
     text-transform: uppercase;
@@ -35,6 +45,11 @@
 .n-items>a:hover{
     border-bottom: 5px solid purple;
     opacity: 1;
+}
+
+.n-buttons{
+    max-height: 50px;
+    display: flex;
 }
 
 @media only screen and (max-width: 800px) {
