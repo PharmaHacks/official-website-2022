@@ -32,7 +32,9 @@
 .individual-sponsor {
   padding: 0px 10%;
   padding-bottom: 3%;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .year-titles {
   font-family: 'Montserrat', sans-serif;

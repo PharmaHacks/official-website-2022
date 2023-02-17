@@ -17,7 +17,7 @@ export default class App extends React.Component{
         <HackathonWelcome />
         <Countdown />
         {/* <About /> */}
-        <Sponsors />
+        <Sponsors noPreviousSponsors={true}/>
         <FAQ />
         <Contact/>
     </div>
