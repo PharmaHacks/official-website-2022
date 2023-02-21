@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Sponsors.css';
+import '../styles/HomeSponsors.css';
 import CurrentSponsor from '../components/CurrentSponsor';
 import PreviousSponsor from '../components/PreviousSponsor';
 
-export default class Sponsors extends React.Component {
+export default class HomeSponsors extends React.Component {
   render() {
     return (
       <div className="sponsors-container" id="sponsors">
@@ -21,9 +21,11 @@ export default class Sponsors extends React.Component {
             <a href="https://www.admarebio.com/en/" target="_blank" rel="noopener noreferrer">
               <CurrentSponsor logo="admare.svg" name="adMare BioInnovations" />
             </a>
-
-            <a href="https://www.phyla.ai" target="_blank" rel="noopener noreferrer">
-              <CurrentSponsor logo="phyla_cropped.png" name="Phyla"/>
+            <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
+              <CurrentSponsor logo="pfizer.png" name="Pfizer"/>
+            </a>
+            <a href="https://www.injoy.bio/" target="_blank" rel="noopener noreferrer">
+              <CurrentSponsor logo="injoy.webp" name="Injoy"/>
             </a>
 
             <a href="https://www.umontreal.ca/" target="_blank" rel="noopener noreferrer">
@@ -41,9 +43,6 @@ export default class Sponsors extends React.Component {
             {/*<div className="year-titles" id="previous">Previous</div>*/}
             {!this.props.noPreviousSponsors ?
               <div className='previous-sponsors'>
-                <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
-                  <PreviousSponsor logo="pfizer.png" />
-                </a>
                 <a href="https://www.talent-accelerator.com/medical-technology-talent-accelerator/home" target="_blank" rel="noopener noreferrer">
                   <PreviousSponsor logo="medtech_transparent.png" />
                 </a>

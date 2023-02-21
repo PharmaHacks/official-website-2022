@@ -5,6 +5,7 @@
   padding-bottom: 3vh;
 }
 .sponsors-text {
+  background-color: #000d1b;
   color: white;
   text-align: left;
   margin-top: -2px;
@@ -31,6 +32,7 @@
 }
 .individual-sponsor {
   padding: 0px 10%;
+  padding-top: 5vh;
   padding-bottom: 3%;
   text-align: center;
   justify-content: center;
@@ -60,7 +62,8 @@
     font-weight: 400;
 }
 .sponsors-background{
-    background-image: url("/images/sponsors/background.svg");
+    /* background-image: url("/images/sponsors/background.svg"); */
+    
     background-repeat: no-repeat;
    
 }

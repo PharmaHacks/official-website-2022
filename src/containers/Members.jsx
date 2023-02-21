@@ -1,17 +1,18 @@
 import React from 'react';
 import Member from '../components/Member';
 import '../styles/Members.css';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 export default class Members extends React.Component{
     render(){return(
         <div>
             <div className='members=container'>
                 <div className='m-prez'>
+                    <div className='m-committees'><span>Pharmahacks President</span></div>  
                     <div className='m-prezImg'>
                         <Member img="Ozhan.png" n="Amirozhan Dehghani" position="President" field="U3 Neuroscience"/>
                     </div>
-                    <div className='m-prezText'>
+                    {/* <div className='m-prezText'>
                         <span> "We are a group of students passionate about facilitating the transition of students from academia to industry by organizing <br/>
                             <Typical
                                 loop={Infinity}
@@ -25,7 +26,7 @@ export default class Members extends React.Component{
                             <br/>
                             <p className='m-presQuotation'><i>-Ozhan, Pharmhacks President</i></p>
                         </span>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
