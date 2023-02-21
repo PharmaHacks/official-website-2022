@@ -45,8 +45,8 @@ export default class Navbar extends React.Component{
             <div className="n-tabs">
                 <div className="n-items">
                   <a href="/#welcome">Home</a>
-                  <a href="/Hackathon2023">Hack</a>
                   <a href ="/Team">Team</a>
+                  <a href="/Hackathon2023">Hackathon</a>
                 </div>
                 {/* <a href="/#about">About us</a> */}
                 {/* <a href="/#sponsors">Sponsors</a> */}
@@ -57,7 +57,7 @@ export default class Navbar extends React.Component{
                 <div className="n-buttons">
                   <Button value="Sponsor Us!" color="lblue" action="mailto:contact@pharmahacks.com" />
                   <div style={{"width": "1vw"}}></div>
-                  <Button value="Apply Now" color="red" action="https://docs.google.com/forms/d/e/1FAIpQLSfZqKl6JNv9ZYKloHqidzdJ8I4jg1Fp3WqcEL01wmBJORUxHQ/viewform" />
+                  <Button value="Apply Now" color="red" action="https://heyform.net/f/WxkYr5T7" />
                 </div>
             </div>
         </nav>

@@ -1,20 +1,20 @@
 import React from 'react';
 import '../styles/Contact.css';
-import Button from '../components/Button';
+// import Button from '../components/Button';
 import Social from '../components/Social';
 
 export default class Contact extends React.Component{
     render(){
         return(
             <div className= "contact-container" id = "contact">
-                <div className= "contact-apply-section">
+                {/* <div className= "contact-apply-section">
                     <div className = "contact-apply-title">
                         <span>Join the Team!</span>
                     </div>
                     <div className = "contact-apply-button">
                         <Button value="Apply now" color="red" action="https://docs.google.com/forms/d/e/1FAIpQLScoX3gSVKMg1yEoyZkjvcPtqChwtktEByFRoUPasfdc-n4N0w/viewform"/>
                     </div>
-                </div>
+                </div> */}
                 <div className= "contact-information-section">
                     <div className = "contact-information-address">
                         <span>Trottier Building, McGill University</span>
