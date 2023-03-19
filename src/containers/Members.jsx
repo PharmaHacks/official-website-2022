@@ -37,7 +37,7 @@ export default class Members extends React.Component{
                         <Member img="Amy.png" n="Amy Qian" position="VP Sponsorship" field="U3 Microbio/Immunology"/>
                         <Member img="Goktug.png" n="Goktug Bender" position="Sponsorship" field="U3 Microbio/Immunology"/>
                         <Member img="Mira.png" n="Mira Zaboube" position="Sponsorship" field="U1 Pharmacology"/>
-                        <Member img="Mozhdeh.png" n="Mozhdeh Zaboube" position="Sponsorship" field="U1 Pharmacology"/>
+                        <Member img="Mozhdeh.png" n="Mozhdeh Mehdizadeh" position="Sponsorship" field="PhD Pharmacology"/>
                         <Member img="Faith.png" n="Faith Bendall" position="Sponsorship" field=" U2 Pharmacology"/>
                     </div>
                     <div className='m-committees'><span>Finance</span></div> 
@@ -48,7 +48,7 @@ export default class Members extends React.Component{
                     <div className='m-list'>
                         <Member img="Yuan.png" n="Yuan Ding" position="VP Logistics" field="U3 Neuroscience"/>
                         <Member img="Nazia.png" n="Nazia Chowdhury" position="Logistics" field="U1 Software Engineering"/>
-                        <Member img="Feiteng.png" n="Feiteng Lin" position="Logistics" field="U2 Pharmacology"/>
+                        <Member img="Feiteng.png" n="Feiteng Lin" position="Logistics" field="U3 Pharmacology"/>
                     </div>
                     <div className='m-committees'><span>Communications</span></div> 
                     <div className='m-list'>

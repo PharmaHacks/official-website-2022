@@ -69,4 +69,7 @@
     .n-items{
         margin-right: 30%;
     }
+    .n-buttons{
+        display: none;
+    }
 }
