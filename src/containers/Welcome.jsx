@@ -26,8 +26,8 @@ export default class Welcome extends React.Component{
             </div>
             <div className="w-title-section">
             <picture>
-                <source srcset="./images/welcome/pharma_logo_2022.svg" media="(max-width: 600px)"/>
-                <img src="./images/welcome/pharma_logo_2023.svg" alt="Pharmahacks 2022" className="w-title-text-svg" />
+                <source srcset="./images/welcome/pharma_logo_2023.svg" media="(max-width: 600px)"/>
+                <img src="./images/welcome/pharma_logo_2023.svg" alt="Pharmahacks 2023" className="w-title-text-svg" />
             </picture> 
             <br/>
                 <Button value="Apply now" color="red" action="https://heyform.net/f/WxkYr5T7" />
