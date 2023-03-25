@@ -8,14 +8,14 @@ import '../styles/Countdown.css';
 
 const calculateTimeLeft = () => {
 
-  let difference = +new Date(`03/25/2023`) - +new Date();
+  let difference = +new Date(`03/26/2023`) - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
     timeLeft = {
       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24 + 9),
-      minutes: Math.floor((difference / 1000 / 60) % 60 + 30),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24 + 12),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
       seconds: Math.floor((difference / 1000) % 60)
     };
   }
@@ -38,7 +38,8 @@ function Countdown() {
 
   return (
     <div className="pageContainer">
-      <div className="title">pharmahacks is live in</div>
+      <div className="title">pharmahacks is now Live!</div>
+      <div className="title">Submissions are Due in</div>
       { tickerEl }
       {/* <button 
         className="toggleButton" 
