@@ -3,6 +3,21 @@ import Button from '../components/Button';
 import '../styles/Welcome.css';
 
 export default class Welcome extends React.Component{
+    /*EE mod s*/
+    state = {
+        showText: true
+    }
+
+    componentDidMount() {
+        this.interval = setInterval(() => {
+            this.setState(prevState => ({ showText: !prevState.showText }));
+        }, 7000);  // The text will toggle every 7 seconds. You can adjust this duration as needed.
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
+    /*ee mod end*/
     render(){return(
         <div className="welcome-container" id="welcome">
             <div className="w-background-container">
@@ -26,11 +41,13 @@ export default class Welcome extends React.Component{
             </div>
             <div className="w-title-section">
             <picture>
-                <source srcset="./images/welcome/pharma_logo_2023.svg" media="(max-width: 600px)"/>
-                <img src="./images/welcome/pharma_logo_2023.svg" alt="Pharmahacks 2023" className="w-title-text-svg" />
+                <source srcSet="./images/welcome/pharma_logo_2024.svg" media="(max-width: 600px)"/>
+                <img src="./images/welcome/pharma_logo_2024.svg" alt="Pharmahacks 2024" className="w-title-text-svg" />
             </picture> 
             <br/>
-                <Button value="Apply now" color="red" action="https://heyform.net/f/WxkYr5T7" />
+            {/*EE add*/}
+            <div className="typing-effect">Coming Soon...</div>
+                {/*EE remove<Button value="Apply now" color="red" action="https://heyform.net/f/WxkYr5T7" />*/}
             </div>
             <img className="w-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" />
         </div>

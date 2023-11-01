@@ -1,37 +1,45 @@
-.navbar-container{
+.navbar-container {
     height: 70px;
     line-height: 70px;
     padding: 10px 0vw 10px 15vw;
     position: fixed;
-    
     top: 0px;
-    z-index:10000;
-    width:100%;
+    z-index: 10000;
+    width: 100%;
+    background-color: transparent; /* Set initial background color to transparent */
+    transition: all 0.3s ease-in-out; /* Add transition for smooth background color change */
+    background-color: rgba(0, 13, 27, 0.9);
 }
-
-.n-logo{
+  
+  .n-logo {
+    height: 50px;
+    transition: all 0.3s ease-in-out;
     float: left;
     margin-top: 10px;
     margin-left: -12vw;
     opacity: 0.5;
     transition: all linear 120ms;
-}
-.n-tabs{
+    cursor: pointer;
+  }
+  
+  .n-tabs {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 83%;
     margin-right: 2vw;
-}
-.n-logo:hover{
+  }
+  
+  .n-logo:hover {
     opacity: 1;
-}
-
-.n-items{
+  }
+  
+  .n-items {
     right: 0px;
     display: inline-block;
-}
-.n-items>a{
+  }
+  
+  .n-items > a {
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
@@ -40,36 +48,133 @@
     font-size: 0.8em;
     opacity: 0.6;
     transition: all linear 120ms;
-}
-
-.n-items>a:hover{
+  }
+  
+  .n-items > a:hover {
     border-bottom: 5px solid purple;
     opacity: 1;
-}
-
-.n-buttons{
+  }
+  
+  .n-buttons {
     max-height: 50px;
     display: flex;
+  }
+  
+  .navbar-container.shrink {
+    height: 50px;
+    line-height: 50px;
+    background-color: #000D1B; /* Set background color when navbar shrinks */
+}
+  
+  .navbar-container.shrink .n-logo {
+    height: 30px;
+    margin-top: 10px;
+    opacity: 1;
+  }
+  
+  .navbar-container.shrink .n-buttons {
+    transform: translateY(-10px);
+  }
+  
+  .sidebar {
+    height: 100vh; /* This ensures the sidebar takes the full viewport height */
+    width: 0;
+    position: fixed; /* This keeps it fixed during scrolling */
+    z-index: 1;
+    top: 0px; /* Ensure it's at the top */
+    left: 0;
+    background-color: #111;
+    overflow-y: auto; /* If the content is too much, it'll be scrollable */
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-@media only screen and (max-width: 800px) {
-    .n-logo{
-        max-width: 8vw;
-        margin-left: -10vw;
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  
+  .sidebar-btn {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lblue {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .lblue:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  
+  
+  @media only screen and (max-width: 800px) {
+    .n-items,
+    .n-buttons {
+      display: none;
     }
-    .n-items{
-        display: none;
+  }
+  
+  @media only screen and (min-width: 801px) {
+    .sidebar {
+      display: none;
     }
-    .navbar-container{
-        color: transparent;
-        /* position: inherit; */
-    }
-}
-@media only screen and (max-width: 1200px) {
-    .n-items{
-        margin-right: 30%;
-    }
-    .n-buttons{
-        display: none;
-    }
-}
+    .n-logo {
+        cursor: pointer;
+      }
+  }
+  
