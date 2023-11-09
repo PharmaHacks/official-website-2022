@@ -110,7 +110,20 @@
     font-size: 36px;
     margin-left: 50px;
     color: white;
+    background: none; /* Remove any button background */
+    border: none; /* Remove borders */
+    cursor: pointer; /* To indicate it's clickable */
+    padding: 0; /* Adjust padding as needed */
+    line-height: 1; /* Adjust line height for proper alignment */
+    outline: none; /* Remove outline to keep consistent with link styling */
   }
+  
+  .sidebar .closebtn:hover,
+  .sidebar .closebtn:focus {
+    color: #ddd; /* Lighten color on hover/focus for feedback */
+    text-decoration: none; /* Remove underline or any text decoration if any */
+  }
+  
   
   .openbtn {
     font-size: 20px;

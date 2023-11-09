@@ -82,7 +82,7 @@ export default class Navbar extends React.Component {
         </div>
 
         <div id="mySidebar" className="sidebar">
-          <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav}>×</a>
+          <button className="closebtn" onClick={this.closeNav}>×</button>
           <a href="/#welcome">Home</a>
           <a href="/Team">Team</a>
           <a href="/Hackathon2023">Hackathon</a>
@@ -90,6 +90,7 @@ export default class Navbar extends React.Component {
             <button className="button lblue" onClick={() => window.location.href = 'mailto:contact@pharmahacks.com'}>Sponsor Us!</button>
           </div>
         </div>
+
 
         <div id="main">
           {/* other page content */}
