@@ -45,7 +45,7 @@ export default class HomeSponsors extends React.Component {
             <a href="https://mila.quebec/en/" target="_blank" rel="noopener noreferrer">
               <CurrentSponsor logo="mila1.png" name="MILA" />
             </a>
-            <a>
+            <a href = "https://www.soinsintelligentsquebec.com/phyla" target='_blank' rel = "noopener noreferrer">
               <CurrentSponsor logo="phyla.png" name="PHYLA" />
             </a>
 

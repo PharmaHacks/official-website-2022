@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/Button';
 import '../styles/Welcome.css';
 
 export default class Welcome extends React.Component{
