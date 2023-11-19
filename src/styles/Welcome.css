@@ -2,6 +2,7 @@
     "w-" prefix for all classnames associated with welcome slide
 */
 
+
 .welcome-container{
     background-color: #000D1B;
     max-width: 100vw;
@@ -50,6 +51,38 @@
     z-index: 0;
     margin-bottom: 11vh;
 }
+/*EE start(coming soon)*/
+.typing-effect {
+    border-right: 0.2em solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .5s step-end infinite;
+    color: rgb(254, 204, 4);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 8em;
+}
+
+
+
+@keyframes typing-effect {
+    0% {
+        width: 0;
+      }
+      50% {
+        width: 9em;
+      }
+      100% {
+        width: 0;
+      }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fff }
+}
+/*EE end*/
 
 
 
