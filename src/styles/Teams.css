@@ -81,4 +81,8 @@
         width: 100vw;
         text-align: center;
     }
+    .t-title {
+        font-size: 7vw; /* Increased font size for better visibility on small screens */
+        line-height: normal; /* Adjust line height if necessary */
+    }
 }

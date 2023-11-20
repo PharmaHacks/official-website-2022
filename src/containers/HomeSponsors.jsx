@@ -39,6 +39,17 @@ export default class HomeSponsors extends React.Component {
             <a href="https://susmcgill.ca/" target="_blank" rel="noopener noreferrer">
               <CurrentSponsor logo="sus.png" name="SUS" />
             </a>
+            <a href="https://mlh.io/" target="_blank" rel="noopener noreferrer">
+              <CurrentSponsor logo="MLH.png" name="MLH" />
+            </a>
+            <a href="https://mila.quebec/en/" target="_blank" rel="noopener noreferrer">
+              <CurrentSponsor logo="Mila.png" name="Mila" />
+            </a>
+            <a href="https://www.soinsintelligentsquebec.com/phyla" target="_blank" rel="noopener noreferrer">
+              <CurrentSponsor logo="phyla.png" name="Phyla" />
+            </a>
+
+
 
             {/*<div className="year-titles" id="previous">Previous</div>*/}
             {!this.props.noPreviousSponsors ?
