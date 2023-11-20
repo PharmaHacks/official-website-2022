@@ -54,8 +54,17 @@
     text-align: center;
 }
 
+
+
 @media only screen and (max-width: 800px) {
-    .m-prezText{
-        font-size: 0.8em;
+    .m-committees {
+        font-size: 1.8em; /* Adjust as needed for the best appearance */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .m-prezText {
+        font-size: 1.8em; /* Adjust as needed */
+        margin: 1em; /* Adjust margin for better spacing */
     }
 }
