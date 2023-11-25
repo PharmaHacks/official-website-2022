@@ -52,7 +52,6 @@ export default class Members extends React.Component{
                     <div className='m-list'>
                         <Member img="Carine.png" n="Carine Zbibo" position="VP Communications" field="U2 Pharmacology"/>
                         <Member img="Cindy.png" n="Cindy Li" position="Communications" field="U0 Life Sciences"/>
-                        <Member img="Jessica.png" n="Jessica Huang" position="Communications" field="U2 Pharmacology"/>
                         
                     </div>
                     <div className='m-committees'><span>Machine Learning</span></div> 
