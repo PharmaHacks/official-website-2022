@@ -14,7 +14,7 @@ ReactDOM.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element = {<Home />} />
-                <Route path="/Hackathon2023" element = {<Hackathon />} />
+                <Route path="/Hackathon2024" element = {<Hackathon />} />
                 <Route path="/Team" element = {<Team />} />
             </Routes>
         </BrowserRouter>
