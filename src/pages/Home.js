@@ -2,24 +2,20 @@ import React from 'react';
 import '../styles/App.css';
 import About from '../containers/About';
 import Sponsors from '../containers/HomeSponsors';
-// import FAQ from '../containers/FAQ';
 import Contact from '../containers/Contact';
-import Welcome from '../containers/Welcome'
-// import Sponsorcards from '../containers/Sponsorcards'
+import Welcome from '../containers/Welcome';
+import InstagramAnnouncementModal from '../components/InstagramAnnouncementModal'; // Ensure this path is correct
 
-export default class App extends React.Component{
-  render(){
+export default class Home extends React.Component {
+  render() {
     return (
       <div className="App">
+        <InstagramAnnouncementModal />
         <Welcome />
-        {/* <HackathonWelcome /> */}
         <About />
         <Sponsors />
-        {/* <Sponsorcards /> */}
-        {/* <FAQ /> */}
-        <Contact/>
-    </div>
-      
+        <Contact />
+      </div>
     );
   }
 }
