@@ -29,7 +29,7 @@ const InstagramAnnouncementModal = () => {
 
   if (!isVisible) return null;
 
-  const imageUrl = process.env.PUBLIC_URL + "/images/welcome/ss120.png";
+  const imageUrl ="/images/welcome/ss120.png";
   const description = "Come join PharmaHacks for a workshop led by Yuan Ding! Yuan is a MSc student in human genetics at McGill.The workshop will cover linear regression, clustering, and Bayesian statistics.Date: January 16th, 2024Time: 4:00pm - 6:00pmLocation: Trottier Building 2110, Sign up using the QR code or using the link in our bio. We hope to see you there! 💻";
 
   return (
