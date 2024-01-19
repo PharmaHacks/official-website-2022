@@ -4,6 +4,8 @@
   position: relative;
   padding-bottom: 3vh;
 }
+
+
 .sponsors-text {
   background-color: #000d1b;
   color: white;
@@ -11,6 +13,7 @@
   margin-top: -2px;
   padding: 100px 10% 78px;
 }
+
 .sponsors-title {
   font-family: "Nunito", sans-serif;
   display: block;
@@ -26,10 +29,12 @@
   font-weight: 200;
   opacity: 0.8;
 }
+
 .sponsors-details > a {
   color: #64B5F6;
   font-weight: 400;
 }
+
 .individual-sponsor {
   padding: 0px 10%;
   padding-top: 5vh;
@@ -38,6 +43,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .year-titles {
   font-family: 'Montserrat', sans-serif;
   padding-top: 10px;
@@ -49,51 +55,53 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-.individual-sponsor>a{
-    color: inherit; 
-    text-decoration: inherit;
+
+.individual-sponsor>a, .previous-sponsors>a {
+  color: inherit; 
+  text-decoration: inherit;
 }
-.previous-sponsors>a{
-    color: inherit; 
-    text-decoration: inherit;
+
+.sponsors-details>span {
+  color:#64B5F6;
+  font-weight: 400;
 }
-.sponsors-details>span{
-    color:#64B5F6;
-    font-weight: 400;
+
+.sponsors-background {
+  /* background-image: url("/images/sponsors/background.svg"); */
+  background-repeat: no-repeat;
 }
-.sponsors-background{
-    /* background-image: url("/images/sponsors/background.svg"); */
-    
-    background-repeat: no-repeat;
-   
+
+@media only screen and (min-width:1450px) {
+  .sponsors-background {
+    background-size: cover;
+  }
 }
-@media only screen and (min-width:1450px){
-    .sponsors-background{
-        background-size: cover;
-    }
-    
-}
+
 @media only screen and (max-width: 600px) {
   .filler-background {
     background-color: #000d1b;
     height: 20vh;
     margin-top: -15px;
   }
+
   .sponsors-text {
     min-height: 25vh;
     padding: 38px 10% 38px;
   }
+
   .sponsors-title {
     margin-top: -12vh;
     font-size: 1.8em;
     padding-bottom: 15vh;
   }
+
   .sponsors-details {
     margin-top: -12vh;
     font-size: 1.1em;
     letter-spacing: 0.5px;
     padding-bottom: 10%;
   }
+
   .individual-sponsor {
     display: flex;
     flex-direction: column;
@@ -101,6 +109,7 @@
     max-width: 100%;
     height: 330px;
   }
+
   .individual-sponsor > a {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -110,14 +119,145 @@
     user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
- .previous-sponsors {
+
+  .previous-sponsors {
     display:flex;
     flex-direction: row;
- }
-}
-@media only screen and (min-height: 900px) {
-    .sponsors-container {
-        min-height: 0vh;
-    }
+  }
 }
 
+@media only screen and (min-height: 900px) {
+  .sponsors-container {
+    min-height: 0vh;
+  }
+}
+
+.individual-sponsor img {
+  max-width: 200px; /* Adjust this value as needed */
+  height: auto;
+  margin: 20px; /* Adds some space around each logo */
+  display: inline-block; /* Align logos in a row */
+}
+
+.previous-sponsors img {
+  max-width: 200px; /* Adjust this value as needed */
+  height: auto;
+  margin: 20px; /* Adds some space around each logo */
+  display: inline-block; /* Align logos in a row */
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  .individual-sponsor img, .previous-sponsors img {
+      max-width: 100px; /* Smaller logos on small screens */
+      margin: 10px;
+  }
+}
+
+
+/* Adjusting the overall container for sponsors */
+.sponsors-container {
+  min-height: 75vh; /* Ensures the section takes up the right amount of vertical space */
+  background-color: #fafafa; /* Matches the existing background color; change as needed */
+  padding: 50px 0; /* Adds vertical padding */
+}
+
+/* Section titles for new and previous sponsors */
+.year-titles {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #64B5F6;
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* Grid container for logos */
+.sponsor-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid layout */
+  gap: 30px; /* Space between logos */
+  justify-items: center; /* Center logos horizontally */
+  align-items: center; /* Center logos vertically */
+  padding: 0 10%; /* Horizontal padding */
+}
+
+/* Style for each sponsor link container */
+.sponsor-logo-grid a {
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+  background: #FFFFFF; /* White background for each logo */
+  padding: 15px; /* Padding around logos */
+  border-radius: 10px; /* Rounded corners for the logo containers */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  display: flex; /* Use flexbox for centering content */
+  justify-content: center; /* Center logo horizontally */
+  align-items: center; /* Center logo vertically */
+  overflow: hidden; /* Ensures content respects border radius */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for sponsor logos */
+.sponsor-logo-grid a:hover {
+  transform: scale(1.05); /* Slightly enlarge logos on hover */
+}
+
+/* Style for sponsor logos */
+.sponsor-logo-grid img {
+  max-width: 100%; /* Limit logo width to its parent container */
+  max-height: 100px; /* Fixed max-height for uniformity */
+  object-fit: contain; /* Ensure the aspect ratio is maintained */
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  .sponsor-logo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust grid layout for smaller screens */
+    gap: 20px; /* Smaller gap between logos */
+  }
+
+  .sponsor-logo-grid a {
+    padding: 10px; /* Smaller padding around logos */
+  }
+
+  .sponsor-logo-grid img {
+    max-height: 80px; /* Smaller logos on smaller screens */
+  }
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Styling for the sponsor category titles */
+.year-titles {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  
+  /* Gradient text effect */
+  background: linear-gradient(270deg, #003366, #006699, #0099cc, #003366);
+  background-size: 400% 400%;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* Vendor-prefixed property for WebKit browsers like Chrome and Safari */
+  -webkit-text-fill-color: transparent; /* Specific to WebKit browsers */
+  color: transparent; /* Standard property, works in combination with background-clip: text */
+  
+  /* Animation */
+  animation: gradient-animation 5s ease infinite;
+}

@@ -17,26 +17,17 @@ export default class HackSponsors extends React.Component{
                 </div>
                 <div className="ha-individual-sponsor">
                     {/* <div className="year-titles" id = "current">Current</div> */}
-                    <a href="https://www.pfizer.com" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="G" year="2023" logo="pfizer.png"/>
+                    <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="share_3eSzXbxb-removebg-preview.png"/>
                     </a> 
-                    <a href="https://www.injoy.bio" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="O" year="2023" logo="injoy.webp"/>
+                    <a href="https://www.mcgill.ca/science/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="mcg_fac_science_rgb_red_ver_en-removebg-preview.png"/>
                     </a> 
-                    <a href="https://www.admarebio.com/en/" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="B" year="2023" logo="admare.svg"/>
-                    </a> 
-                    <a href="https://www.ssmu.ca" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="P" year="2023" logo="ssmu.png"/>
-                    </a>
-                    <a href="https://www.umontreal.ca/" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="P" year="2023" logo="UDEM.svg"/>
-                    </a>
-                    <a href="https://susmcgill.ca/" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="P" year="2023" logo="SUS.jpeg"/>
-                    </a>
                     <a href="https://www.mcgill.ca/pharma/" target="_blank" rel="noopener noreferrer">
-                      <Sponsor tier="P" year="2023" logo="mcgillPharma.png"/>
+                      <Sponsor  year="2024" logo="mcgillPharma.png"/>
+                    </a> 
+                    <a href="https://www.mcgill.ca/epi-biostat-occh/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="McGill-EBOH-logo-removebg-preview.png"/>
                     </a>
                     
 
