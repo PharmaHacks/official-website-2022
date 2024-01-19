@@ -86,10 +86,25 @@
     opacity: 0.9;
     text-align: left;
 }
-.contact-information-social-media{
-    text-align: left;
-    background-color: transparent;
+/* Social media icon styles */
+.contact-information-social-media {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    justify-content: center; /* Center icons if there's extra space */
 }
+
+/* Social media icons hover effect */
+.contact-information-social-media a {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.contact-information-social-media a:hover {
+    transform: scale(1.1); /* Scale up icons slightly on hover */
+    filter: drop-shadow(2px 4px 6px black); /* Apply a subtle shadow effect on hover */
+}
+
+/* Make sure to link this CSS with your React component by importing it at the top of your component file */
+
 .code-of-conduct{
     font-family: Nunito;
     font-style: normal;
