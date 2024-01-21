@@ -33,7 +33,7 @@ export default class HomeSponsors extends React.Component {
               </a>
 
               <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener noreferrer">
-                <PreviousSponsor logo="share_3eSzXbxb-removebg-preview.png" name="wOLFRAM" />
+                <PreviousSponsor logo="wolfram-corporate-logo-stacked-med-removebg-preview.png" name="wOLFRAM" />
               </a>
               
               {/* ... Add more CurrentSponsor components as needed ... */}
