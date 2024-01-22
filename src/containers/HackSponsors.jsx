@@ -30,6 +30,12 @@ export default class HackSponsors extends React.Component{
                     <a href="https://www.mcgill.ca/epi-biostat-occh/" target="_blank" rel="noopener noreferrer">
                       <Sponsor  year="2024" logo="McGill-EBOH-logo-removebg-preview.png"/>
                     </a>
+                    <a href="https://susmcgill.ca/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="SUSLogoFiles_BlackLong-removebg-preview.png"/>
+                    </a>
+                    <a href="https://ssmu.ca/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="Logo-SSMU-Transparency-English-2013-2014-removebg-preview.png"/>
+                    </a>
                     
 
                     {/* PAST SPONSORS */}
