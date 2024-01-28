@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Welcome.css';
 
+
+
 export default class Welcome extends React.Component {
     /*EE mod s*/
     state = {
@@ -46,11 +48,32 @@ export default class Welcome extends React.Component {
                         <img src="./images/welcome/pharma_logo_2024.svg" alt="Pharmahacks 2024" className="w-title-text-svg" />
                     </picture>
                     <br/>
-                    <div className="typing-effect">Coming Soon...</div>
+                    <div className="event-details-container">
+                    <div className="event-detail">
+                    <svg className="event-icon" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19 3h-1V2h-2v1H8V2H6v1H5c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2m0 16H5V9h14v10m0-12H5V5h14v2z" />
+                    </svg>                    <p className="event-info">Saturday 16 & Sunday 17 March 2024</p>
                 </div>
+                <div className="event-detail">
+                    <svg className="event-icon" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12 20a8 8 0 008-8 8 8 0 00-8-8 8 8 0 00-8 8 8 8 0 008 8m0-18a10 10 0 0110 10 10 10 0 01-10 10A10 10 0 012 12 10 10 0 0112 2m.5 3H11v10l8.5 5.25 1.5-2.42-7-4.33V5z" />
+                    </svg>
+                    <p className="event-info">9 AM - 6 PM</p>
+                </div>
+                <div className="event-detail">
+                    <svg className="event-icon" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12 2a7 7 0 017 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 017-7m0 9.5a2.5 2.5 0 01-2.5-2.5 2.5 2.5 0 012.5-2.5 2.5 2.5 0 012.5 2.5A2.5 2.5 0 0112 11.5z" />
+                    </svg>
+                    <p className="event-info">1250 Rue Guy, Suite 600, Montreal, H3H 2L3</p>
+                </div>
+                </div>
+                    <button onClick={this.goToApplicationForm} className="application-button">Apply Now!</button>                </div>
                 <img className="w-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" />
             </div>
         );
+    }
+    goToApplicationForm = () => {
+        window.location.href = 'https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u&Token=298e9bd1685a4d2b9c918b8e8ad01186'; 
     }
 }
 
