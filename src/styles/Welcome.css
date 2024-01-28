@@ -87,9 +87,11 @@
 
 
 @media only screen and (max-width: 800px) {
+    
     .welcome-container{
-        justify-content: center;
-        padding: 0px;
+        padding-top: 150px; /* Adjust this value as needed to give space above the logo */
+        padding-bottom: 50px; /* Adjust this value as needed for space below */
+        justify-content: flex-start;
     }
     .w-background-container>svg:nth-child(1){
         top:-10%;
