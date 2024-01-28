@@ -103,3 +103,190 @@
         text-align: center;
     }
 }
+
+/* Style for the application button */
+.application-button {
+    padding: 10px 40px;
+    font-size: 1.1em;
+    background-color: #ff4d4d; /* Base color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 6px #cc3d3d; /* Darker shade for depth */
+    transition: all 0.3s ease;
+    position: relative; /* For pseudo-element */
+}
+.application-button:hover {
+    background-color: #ff6666; /* Lighter on hover */
+    box-shadow: 0 4px #cc3d3d; /* Shorten shadow for lifted effect */
+    top: -2px; /* Slightly move up */
+}
+.application-button:active {
+    background-color: #ff3333; /* Even darker */
+    box-shadow: 0 2px #cc3d3d; /* Minimal shadow */
+    top: 4px; /* Push down */
+}
+
+/* Focus styles for accessibility */
+.application-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Blue glowing outline for keyboard navigation */
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 600px) {
+    .application-button {
+        padding: 8px 30px;
+        font-size: 1em;
+    }
+    
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Container for the event details with icons */
+  .event-details-container {
+      background: rgba(0, 76, 153, 0.2); /* Blue tint background for contrast */
+      border-radius: 10px; /* rounded corners */
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* light shadow for depth */
+      margin: 20px 0; /* Increased spacing around the container */
+      display: inline-block; /* to wrap the content */
+      animation: fadeInUp 0.8s ease-out forwards;
+      color: white; /* Text color for better contrast */
+      max-width: 90%; /* Limit width to ensure padding on the sides */
+      text-align: center; /* Center text for a clean look */
+      animation: popIn 0.8s ease forwards;
+      
+  }
+
+  .event-detail:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+}
+  
+  .event-detail {
+      display: flex;
+      align-items: center;
+      margin: 10px 0; /* consistent spacing */
+      color: inherit; /* inherit white color */
+      opacity: 0; /* initial state for animation */
+      animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  /* Adjust the delay for each child to create a cascade effect */
+  .event-detail:nth-child(1) { 
+      animation-delay: 0.3s;
+  }
+  .event-detail:nth-child(2) { 
+      animation-delay: 0.6s;
+  }
+  .event-detail:nth-child(3) { 
+      animation-delay: 0.9s;
+  }
+  
+  .event-icon {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    margin-right: 10px; /* Spacing between icon and text */
+    fill: currentColor; /* Icon color */
+     /* Smooth transition for hover effect */
+    transition: transform 0.3s ease;
+
+}
+  
+  .event-info {
+      font-size: 1em;
+      font-weight: bold;
+      color: inherit; /* inherit white color */
+      transition: color 0.3s ease;
+
+  }
+  
+  .event-icon:hover {
+    transform: scale(1.2);
+}
+
+.event-detail:hover .event-info {
+    color: #004d99; /* Darker shade of blue */
+}
+
+  @media (max-width: 600px) {
+    .event-icon {
+        width: 20px; /* Smaller size for smaller screens */
+        height: 20px;
+    }
+}
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+      .event-details-container {
+          padding: 10px;
+      }
+  
+      .event-detail {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .event-info {
+          font-size: 0.9em;
+      }
+  
+      .event-icon {
+          font-size: 1.2em;
+          margin: 4px 0; /* smaller margin for stacked layout */
+      }
+  }
+  
+  @media (min-width: 576px) { 
+      .event-details-container {
+          padding: 20px;
+      }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+      .event-details-container {
+          /* Adjust the flex-direction and justify-content for a row layout on tablets */
+          flex-direction: row;
+          justify-content: space-around;
+      }
+  
+      .event-detail {
+          margin: 0 10px; /* Adjust margins for a horizontal layout */
+      }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+      /* No changes needed for large devices if the tablet layout suffices */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+      .event-icon {
+          margin-right: 12px; /* Increase spacing for larger screens */
+          font-size: 1.8em; /* Larger icons for larger screens */
+      }
+      .event-info {
+          font-size: 1.2em; /* Larger text for better readability */
+      }
+  }
+  

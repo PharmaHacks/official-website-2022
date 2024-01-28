@@ -13,6 +13,8 @@
   color: white;
   font-family: 'Posterama';
   margin: auto; /* Center the container on the page */
+  align-items: center; /* Center align the contents */
+  text-align: center; 
 }
 
 .pageContainer .title {
@@ -20,7 +22,8 @@
   font-size: 2.5rem; /* Adjusted font size for better readability */
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 10px; /* Added space between titles */
+  margin-bottom: 20px; /* Increase the bottom margin */
+
 }
 
 .text {
@@ -57,7 +60,7 @@
 /* Media queries for smaller screens */
 @media only screen and (max-width: 850px) {
   .pageContainer .title {
-    font-size: 2rem; /* Slightly smaller font size for smaller screens */
+    font-size: 1.8rem; /* Adjust the font size for smaller screens */
   }
 }
 
