@@ -78,7 +78,7 @@ export default class Navbar extends React.Component {
           <div className="n-buttons">
             <Button value="Sponsor Us!" color="lblue" action="mailto:contact@pharmahacks.com" />
             <div style={{ width: '1vw' }}></div>
-            <Button value="Apply Now!" color="red" action="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u&Token=298e9bd1685a4d2b9c918b8e8ad01186" />
+            <Button value="Apply Now!" color="red" action="https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u" />
           </div>
         </div>
 
@@ -89,7 +89,7 @@ export default class Navbar extends React.Component {
           <a href="/Hackathon2023">Hackathon</a>
           <div className="sidebar-btn">
             <button className="button lblue" onClick={() => window.location.href = 'mailto:contact@pharmahacks.com'}>Sponsor Us!</button>
-            <button className="button red" onClick={() => window.location.href = 'https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u&Token=298e9bd1685a4d2b9c918b8e8ad01186'}>Apply Now!</button>
+            <button className="button red" onClick={() => window.location.href = 'https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u'}>Apply Now!</button>
     
           </div>
         </div>
