@@ -73,7 +73,7 @@ export default class Welcome extends React.Component {
         );
     }
     goToApplicationForm = () => {
-        window.location.href = 'https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u&Token=298e9bd1685a4d2b9c918b8e8ad01186'; 
+        window.location.href = 'https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u'; 
     }
 }
 
