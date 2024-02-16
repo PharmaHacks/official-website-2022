@@ -2,6 +2,14 @@
     "w-" prefix for all classnames associated with welcome slide
 */
 
+.w-title-text {
+    width: auto; /* Adjust based on your needs, could be a specific px value */
+    max-width: 100%; /* Ensures image is not larger than its container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* To respect max-width and margin */
+    margin-bottom: 25px;
+}
+
 
 .welcome-container{
     background-color: #000D1B;

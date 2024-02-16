@@ -42,6 +42,9 @@ export default class HackSponsors extends React.Component{
                     <a href="https://district3.co/" target="_blank" rel="noopener noreferrer">
                       <Sponsor  year="2024" logo="AHClvILvRZA1AAAAAElFTkSuQmCC-removebg-preview.png"/>
                     </a>
+                    <a href="https://dana.dexterra.com/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="MKT-IFM-DECAL010-Dana_Hospitality_Logo-Colour-Orange_1-removebg-preview.png"/>
+                    </a>
                     
 
                     {/* PAST SPONSORS */}

@@ -47,6 +47,9 @@ export default class HomeSponsors extends React.Component {
               <a href="https://district3.co/" target="_blank" rel="noopener noreferrer">
                 <PreviousSponsor logo="AHClvILvRZA1AAAAAElFTkSuQmCC-removebg-preview.png" name="D3" />
               </a>
+              <a href="https://dana.dexterra.com/" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="MKT-IFM-DECAL010-Dana_Hospitality_Logo-Colour-Orange_1-removebg-preview.png" name="DANA" />
+              </a>
               
               {/* ... Add more CurrentSponsor components as needed ... */}
             </div>
