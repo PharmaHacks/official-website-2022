@@ -43,10 +43,9 @@ export default class Welcome extends React.Component {
 
             </div>
                 <div className="w-title-section">
-                    <picture>
-                        <source srcSet="./images/welcome/pharma_logo_2024.svg" media="(max-width: 600px)" />
-                        <img src="./images/welcome/pharma_logo_2024.svg" alt="Pharmahacks 2024" className="w-title-text-svg" />
-                    </picture>
+                    
+                        <img src="./images/welcome/pharma_logo_2024.png" alt="Pharmahacks 2024" className="w-title-text" />
+                   
                     <br/>
                     <div className="event-details-container">
                     <div className="event-detail">
