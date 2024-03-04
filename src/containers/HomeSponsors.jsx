@@ -59,6 +59,9 @@ export default class HomeSponsors extends React.Component {
               <a href="http://www.aebinum.umontreal.ca/" target="_blank" rel="noopener noreferrer">
                 <PreviousSponsor logo="Messages_Image3267879898.jpeg" name="AEB" />
               </a>
+              <a href="https://www.chefoncalldelivery.com/" target="_blank" rel="noopener noreferrer">
+                <PreviousSponsor logo="logo-chef-on-call-removebg-preview.png" name="COC" />
+              </a>
               
               {/* ... Add more CurrentSponsor components as needed ... */}
             </div>
