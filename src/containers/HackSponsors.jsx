@@ -54,6 +54,9 @@ export default class HackSponsors extends React.Component{
                     <a href="http://www.aebinum.umontreal.ca/" target="_blank" rel="noopener noreferrer">
                       <Sponsor  year="2024" logo="Messages_Image3267879898.jpeg"/>
                     </a>
+                    <a href="https://www.chefoncalldelivery.com/" target="_blank" rel="noopener noreferrer">
+                      <Sponsor  year="2024" logo="logo-chef-on-call-removebg-preview.png"/>
+                    </a>
                     
 
                     {/* PAST SPONSORS */}
