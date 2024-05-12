@@ -8,7 +8,7 @@ import '../styles/Ticker.css';
 export const Ticker = ({ futureDate }) => {
     const { days, hours, minutes, seconds, isTimeUp } = useTicker(futureDate);
     const tickerContents = isTimeUp ? (
-        <div className="timeIsUp">Applications will be available soon</div>
+        <div className="timeIsUp">Applications will be available approaching the next event!</div>
     ) : (
         <>
             <TickerCell value={days} label="Days" color="red"/>
