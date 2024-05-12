@@ -38,8 +38,8 @@ function Countdown() {
 
   return (
     <div className="pageContainer">
-      <div className="title">pharmahacks is now Live!</div>
-      <div className="title">Submissions are Due in</div>
+      {/*<div className="title">pharmahacks is now Live!</div>*/}
+      {/*<div className="title">Submissions are Due in</div>*/}
       { tickerEl }
       {/* <button 
         className="toggleButton" 

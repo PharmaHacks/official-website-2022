@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import '../styles/MLH.css'
+import '../styles/MLH.css';
 import Button from '../components/Button';
 
 export default class Navbar extends React.Component {
   constructor(props) {
     super(props);
-
     this.listener = null;
     this.state = {
       status: "top",
@@ -54,9 +53,7 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <nav
-        className={`navbar-container ${
-          this.state.status === "shrink" ? "shrink" : ""
-          }`}
+        className={`navbar-container ${this.state.status === "scrolled" ? "shrink" : ""}`}
         style={{
           backgroundColor: this.state.status === "top" ? "transparent" : "#000D1B",
         }}
@@ -73,29 +70,23 @@ export default class Navbar extends React.Component {
             <a href="/#welcome">Home</a>
             <a href="/Team">Team</a>
             <a href="/Hackathon2023">Hackathon</a>
+            <a href="/Event">Event 2024</a> {/* Added new page link here */}
           </div>
 
           <div className="n-buttons">
             <Button value="Sponsor Us!" color="lblue" action="mailto:contact@pharmahacks.com" />
-            <div style={{ width: '1vw' }}></div>
-            <Button value="Apply Now!" color="red" action="https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u" />
           </div>
         </div>
 
         <div id="mySidebar" className="sidebar">
-        <button className="closebtn" onClick={this.closeNav}>×</button>
+          <button className="closebtn" onClick={this.closeNav}>×</button>
           <a href="/#welcome">Home</a>
           <a href="/Team">Team</a>
           <a href="/Hackathon2023">Hackathon</a>
+          <a href="/Event">Event 2024</a> {/* Added new page link here in the sidebar as well */}
           <div className="sidebar-btn">
             <button className="button lblue" onClick={() => window.location.href = 'mailto:contact@pharmahacks.com'}>Sponsor Us!</button>
-            <button className="button red" onClick={() => window.location.href = 'https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6mJrVJiWO71Dj2Ron4sFt3xUOENGQjVPUkgyNDFaMk9ZQjRJNzZDUkc3OC4u'}>Apply Now!</button>
-    
           </div>
-        </div>
-
-        <div id="main">
-          {/* other page content */}
         </div>
       </nav>
     );
