@@ -40,38 +40,50 @@
     z-index: 0;
     margin-bottom: 11vh;
 }
-
-.typing-effect {
-    font-size: 0.9em; /* Controlled font size */
-    border-right: 0.2em solid #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    letter-spacing: 0.15em;
-    animation: typing 4s steps(80, end), blink-caret 0.75s step-end infinite;
-    color: rgb(254, 204, 4);
-    padding: 10px 0; /* No horizontal padding */
-    margin-left: -10px; /* Pull text slightly to the left */
-    border-radius: 5px;
-    max-width: calc(100% + 20px); /* Increase available width */
-    box-sizing: content-box;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #fff; }
+/* Simplistic and Futuristic Thematic Text */
+.thematic-text {
+    font-family: 'Roboto', sans-serif; /* Sleek, modern sans-serif font */
+    font-size: 2em; /* Balanced size for readability */
+    font-weight: 400; /* Light weight for a minimal look */
+    color: #ffffff; /* Clean white color */
+    letter-spacing: 0.1em; /* Subtle letter spacing for a futuristic feel */
+    text-transform: uppercase; /* All caps for a bold statement */
+    opacity: 0.85; /* Slight transparency for a soft feel */
+    margin-bottom: 25px;
+    text-align: center; /* Center the text */
+    line-height: 1.4;
 }
 
 
 
-/* Ensure visibility during typing */
-.typing-effect.vis {
-    animation: none;
+
+/* Button styling */
+.application-link {
+    margin-top: 15px; /* Space between text and button */
+    display: flex;
+    justify-content: center;
+    z-index: 100;
 }
+
+.apply-button {
+    background: linear-gradient(45deg, #ff7f50, #ffba08); /* Warm gradient for button */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.apply-button:hover {
+    transform: scale(1.05); /* Hover effect for button */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+
 
 
 @media only screen and (max-width: 800px) {
@@ -95,7 +107,20 @@
         text-align: center;
     }
 
-    .typing-effect {
-        min-width: 300px; /* Adjusted for mobile views */
+    .apply-button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+        width: 80%;
+    }
+
+    .thematic-text {
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .apply-button {
+        font-size: 1.1em;
+        padding: 10px 15px;
     }
 }
