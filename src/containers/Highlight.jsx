@@ -65,6 +65,7 @@ const committees = {
 
     ],
     logistics : [
+    
         {
             name : "Debbie Fitopoulos",
             position : "Logistics",
@@ -79,7 +80,7 @@ const committees = {
         img : "images/members/Tracy.png",
         bio : "My primary responsibilities included procuring essential materials necessary for the smooth execution of the hackathon. During the event, I was pivotal in managing participant sign-in, ensuring a seamless registration process for all attendees. Additionally, I played a crucial role in organizing and conducting prize raffles, and I actively participated in the post-event cleanup, contributing to the overall organization and success of the event.",
         field : "BSc. Neuroscience"
-    }
+    },
     ],
     communications : [
         {
