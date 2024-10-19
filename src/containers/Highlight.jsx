@@ -65,7 +65,13 @@ const committees = {
 
     ],
     logistics : [
-    
+        {
+            name : "Alexia Botezatu",
+            position : "VP Logistics",
+            img : "images/members/Alexia.png",
+            bio : "As the VP logistics, I had the opportunity to oversee a team of dedicated members. Charged with delegating tasks, I assigned tasks to team members according to their skills and interest. As VP logistics, I was involved in communicating with participating parties, problem solving, research, merchandise design, placing orders and scheduling. I also had the chance to organise a fundraiser before the event in order to raise funds and awareness of our organization.",
+            field : "B.A. History & Anthropology"
+        },
         {
             name : "Debbie Fitopoulos",
             position : "Logistics",
