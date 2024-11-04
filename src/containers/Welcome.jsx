@@ -19,12 +19,13 @@ export default class Welcome extends React.Component {
                     {/* Button to the application form */}
                     <div className="application-link">
                         <a
-                            href="https://forms.gle/Cv2Nie39vnGWjciF8"
+                            // UNCOMMENT WHEN APPLICATIONS OPEN!
+                            // href="https://forms.gle/Cv2Nie39vnGWjciF8"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="apply-button"
                         >
-                            Apply Now!
+                            Stay Tuned!
                         </a>
                     </div>
                 </div>
