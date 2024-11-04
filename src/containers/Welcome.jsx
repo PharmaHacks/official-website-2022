@@ -17,16 +17,22 @@ export default class Welcome extends React.Component {
                     </div>
 
                     {/* Button to the application form */}
+                    {/* UNCOMMENT WHEN APPLICATIONS OPEN! */}
+                    {/* This is the current button that is stay tuned, remove this and uncomment the one below when apps are open. Then HREF the google form link */}
                     <div className="application-link">
+                        <span className="apply-button">Stay Tuned!</span>
+                    </div>
+
+                    {/* <div className="application-link">
                         <a
-                            href="https://forms.gle/Cv2Nie39vnGWjciF8"
+                            // href="https://forms.gle/Cv2Nie39vnGWjciF8"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="apply-button"
                         >
-                            Apply Now!
+                            Stay Tuned!
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
                 <img className="w-dna-gif" src="./images/welcome/DNA.gif" alt="DNA gif" />
