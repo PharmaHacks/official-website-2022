@@ -9,11 +9,11 @@ export default class Welcome extends React.Component {
                     {/* Background SVGs, animations omitted for brevity */}
                 </div>
                 <div className="w-title-section">
-                    <img src="./images/welcome/pharma_logo_2024.png" alt="Pharmahacks 2024" className="w-title-text" />
+                    <img src="./images/welcome/pharma2025_transparent.png" alt="Pharmahacks 2024" className="w-title-text" />
                     
                     {/* Refined Thematic Text */}
                     <div className="thematic-text">
-                        Member applications are now open!
+                        Stay tuned for pharmahacks 2025!
                     </div>
 
                     {/* Button to the application form */}
