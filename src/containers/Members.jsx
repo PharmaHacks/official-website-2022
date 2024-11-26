@@ -10,7 +10,7 @@ export default class Members extends React.Component{
                 <div className='m-prez'>
                     <div className='m-committees'><span>Pharmahacks President</span></div>  
                     <div className='m-prezImg'>
-                        <Member img="Faye.png" n="  Faye Nikolettos" position="President" field="U3 Neuroscience"/>
+                        <Member img="carine2025.png" n="Carine Zbibo" position="President" field="U3 Pharmacology" className = "vp-border"/>
                     </div>
                     {/* <div className='m-prezText'>
                         <span> "We are a group of students passionate about facilitating the transition of students from academia to industry by organizing <br/>
@@ -34,36 +34,34 @@ export default class Members extends React.Component{
                 <div>
                     <div className='m-committees'><span>Sponsorship</span></div>          
                     <div className='m-list'>
-                        <Member img="Goktug.png" n="Goktug Bender" position=" VP Sponsorship" field="U3 Psychology"/>
-                        <Member img="Celine.png" n="Celine Sakkal" position="Sponsorship" field="U0 Life Sciences"/>
+                        <Member img="2024_members/Celine.png" n="Celine Sakkal" position=" VP Sponsorship" field="U1 Computer Science" className="vp-border"/>
+                        <Member img="2024_members/Antonin.png" n="Antonin Beranger" position="Sponsorship" field="U2 Economics and Computer Science"className="non-vp-border"/>
+                        <Member img="2024_members/Marie.png" n="Marie Pyun" position="Sponsorship" field="U1 Biology and Math"className="non-vp-border"/>
                     </div>
                     <div className='m-committees'><span>Finance</span></div> 
                     <div className='m-list'>
-                        <Member img="Enzo.png" n="Enzo Manzi-Murabukirwa" position="VP Finance" field="U3 Biochemistry"/> 
+                    <Member img="2024_members/Ali.png" n="Ali Douba" position=" VP Finance" field="U4 Finance, Analytics, and Sustainability" className="vp-border"/>
                     </div>
                     <div className='m-committees'><span>Logistics</span></div> 
                     <div className='m-list'>
-                        <Member img="Alexia.png" n="Alexia Botezatu" position="VP Logistics" field="U2 History/Anthropology"/>
-                        <Member img="Tracy.png" n="Tracy Wang" position="Logistics" field="U1 Neuroscience"/>
-                        <Member img="Aichelle.png" n="Aichelle" position="Logistics" field="U1 CompSci"/>
-                        <Member img="Debbie.png" n="Debbie Fitopoulos" position="Logistics" field="U1 Interfaculty"/>
+                    <Member img="2024_members/Tracy.png" n="Tracy Wang" position="VP Logistics" field="U2 Neuroscience" className="vp-border"/>
+                    <Member img="2024_members/Zhi.png" n="Zhi Jun Liu" position="Logistics" field="U1 Med-P"className="non-vp-border"/>
+                    {/* add a photo here once i get one */}
+                    <Member img="2024_members/Tanjin.jpg" n="Tanjin Sultana" position="Logistics" field="U2 Bioengineering"className="non-vp-border"/>
                     </div>
                     <div className='m-committees'><span>Communications</span></div> 
                     <div className='m-list'>
-                        <Member img="Carine.png" n="Carine Zbibo" position="VP Communications" field="U2 Pharmacology"/>
-                        <Member img="Cindy.png" n="Cindy Li" position="Communications" field="U0 Life Sciences"/>
-                        
+                    <Member img="2024_members/Cindy.png" n="Cindy Li" position="Co-VP Communications" field="U1 Neuroscience" className="vp-border"/>
+                    <Member img="2024_members/Kathleen.jpg" n="Kathleen Brown" position="Co-VP Communications" field="U3 Anatomy and Cell Biology" className="vp-border"/>
                     </div>
                     <div className='m-committees'><span>Machine Learning</span></div> 
                     <div className='m-list'>
-                        <Member img="Yohai.png" n="Yohaï-Eliel Berreby" position="VP Machine Learning" field="Graduate Physiology"/>
-                        <Member img="Amir.png" n="Amir Rajabi Vajargah" position="Machine Learning" field="M1 Human Genetics"/>
-                        <Member img="Sabrina.png" n="Sabrina Du" position="Machine Learning" field="U1 Neuroscience"/>
+                    <Member img="2024_members/Ozhan.png" n="Ozhan Dehghani" position="VP Machine Learning" field="M1 Neuro AI" className="vp-border"/>
+                    <Member img="2024_members/Aymen.png" n="Aymen Boustani" position="Machine Learning" field="U4 Mechanical Engineering, Minor Applied AI"className="non-vp-border"/>
                     </div>
                     <div className='m-committees'><span>Web Development</span></div> 
                     <div className='m-list'>
-                        <Member img="Efe.png" n="Efe Ertugrul" position="VP Web Development" field="U3 CompSci/Statistics"/>
-
+                    <Member img="2024_members/Onur_Gul.png" n="Onur Gul" position="VP Web Development" field="U2 Mathematics/Computer Science" className ="vp-border"/>
                     </div>
                 </div>
             </div>

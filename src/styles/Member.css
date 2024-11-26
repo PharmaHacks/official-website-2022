@@ -2,89 +2,85 @@
     font-family: 'Posterama';
     src: url("/fonts/Posterama 2001 W04 SemiBold.ttf") format("opentype");
 }
-.member-container{
-    border-radius: 10px;
-    height: 30vh;
-    width: 30vh;
-    position: relative;
-    overflow: hidden;
-    margin: 10px 20px;
-    display: inline-block;
-    text-align: center;
-}
-.member-container>img{
-    position: absolute;
-    top:0px;
-    left: 0px;
-    height: 100%;
-    transition: all 200ms ease;
-}
-.member-container>div{
-    width: 100%;
-    height: 100%;
-    position: relative;
+
+/* Wrapper div to create the border ring */
+.border-ring {
+    border-radius: 50%; /* Make the border ring circular */
+    padding: 0px; /* Controls the thickness of the border */
+    margin: 20px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    background-color: rgba(0, 14, 27, 0.5);
-    transition: all ease 140ms;
+    transition: padding 400ms ease;
+}
+/* When the image (inside member-container) is hovered, change the border-ring padding */
+.member-container:hover ~ .border-ring,
+.border-ring:hover {
+    padding: 5px; /* Smoothly transition to 5px padding*/
+ }
+
+/* Specific styles for VP and non-VP borders */
+.vp-border {
+    border: 5px solid #64B5F5; /* Light blue border for VPs */
+}
+
+.non-vp-border {
+    border: 5px solid white; /* White border for non-VPs */
+}
+
+/* General styling for member container */
+.member-container {
+    border-radius: 50%; /* Make the container circular */
+    height: 370px;
+    width: 370px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    transition: all 200ms ease; /* Smooth transition for hover */
+}
+
+.member-container > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensures the image covers the circular area without distortion */
+    transition: all 200ms ease;
+}
+
+/* Circular overlay */
+.member-container > div {
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Ensures it covers the entire container */
+    top: 0;
+    left: 0;
+    display: flex; /* Centers content */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hidden by default */
+    background-color: rgba(0, 14, 27, 0.5); /* Semi-transparent overlay */
+    border-radius: 50%; /* Make the overlay circular to match the container */
+    transition: opacity 200ms ease; /* Smooth fade-in */
     font-family: 'Posterama';
-    font-size: 1em;
     color: white;
 }
-.member-container>div:hover{
-    opacity: 1;
-}
-.member-container>div:hover span{
-    margin-top: 0px;
+
+/* Apply hover effect on the entire container */
+.member-container:hover > div {
+    opacity: 1; /* Show overlay on hover */
 }
 
-.president-container{
-    border-radius: 10px;
-    height: 14em;
-    width: 14em;
-    position: relative;
-    overflow: hidden;
-    margin: 10px 20px;
-    display: inline-block;
-    text-align: center;
-}
-.president-container>img{
-    position: absolute;
-    top:0px;
-    left: 0px;
-    height: 100%;
-    transition: all 200ms ease;
-}
-.president-container>div{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    background-color: rgba(0, 14, 27, 0.5);
-    transition: all ease 140ms;
-    font-family: Posterama;
-    font-size: 3vw;
-    color: white;
-}
-.president-container>div:hover{
-    opacity: 1;
-}
-.president-container>div:hover span{
-    margin-top: 0px;
-}
-
-.m-position{
+/* Additional styles for text */
+.m-position {
     color: #64B5F5;
     font-size: 0.8em;
 }
 
-.m-field{
+.m-field {
     color: #64B5F5;
     font-size: 0.8em;
 }
-
