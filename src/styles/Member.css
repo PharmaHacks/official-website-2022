@@ -5,6 +5,8 @@
 
 /* Wrapper div to create the border ring */
 .border-ring {
+    margin-right:10px;
+    margin-left: 10px;
     border-radius: 50%; /* Make the border ring circular */
     padding: 0px; /* Controls the thickness of the border */
     margin-bottom: 25px;
